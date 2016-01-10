@@ -71,3 +71,6 @@ As an example, if you have a template with a header and a footer and a singule `
 If you add or remove a `vero-editable` region, Vero won't be able to correctly merge your previous campaign updates onto the new template, as it will recognize you've changed the structure of hte underlying campaign. In this scenario, the template will be marked with the yellow traffic light. Selecting **View related campaigns** from the dropdown next to the template will reveal the campaigns that have conflicts and need a manual review.
 
 By clicking on the name of each campaign, you can manually review Vero's attempt to merge in your content updates. Once happy you can select **Save and exit**. Until you re-save this campaign, it will use the old version of your template, to avoid ugly or incomplete emails going to your customers. Once saved, the new version will go live.
+
+##Media queries
+In Vero, media queries are honoured through the inclusion of the `data-premailer='ignore'` tag within your CSS `<style>` element. Anything contained within the `<style data-premailer="ignore">` element will NOT be automatically compiled prior to your email being sent. Further information on [media queries in Vero is available here](/articles/media-queries-in-vero.html).
