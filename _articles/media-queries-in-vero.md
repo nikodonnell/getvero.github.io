@@ -7,7 +7,7 @@ getting_started: true
 
 # Using Media Queries (@media) in Vero
 
-Vero provides support for media queries in HTML templates, however they must be wrapped with a in a separate `<style>` element containing the special tag `data-premailer='ignore'`.
+Vero provides support for media queries in HTML templates, however they must be wrapped in a separate `<style>` element containing the special tag `data-premailer='ignore'`.
 
     
     <style>
@@ -18,6 +18,7 @@ Vero provides support for media queries in HTML templates, however they must be 
         /** mobile styles go here e.g. */
         
         @media only screen and (max-width: 620px) {
+            width:320px;
         }
         
     </style>
@@ -25,11 +26,13 @@ Vero provides support for media queries in HTML templates, however they must be 
 
 ##Background
 
-Acheiving visual consistency across email clients is difficult, but can be significantly improved through element-level CSS specificity. In email, styles should ideally be scoped to the `style="..."` tag of each individual element they apply to. This, of course, makes managing your styles difficult and ultimately defeats the purpose of CSS itself.
+Acheiving visual consistency across email clients is an ongoing challenge for marketers. It can, however, be significantly improved by scoping styles to the exact element they apply to. This is also known as element-level CSS specificity. Unfortunately, this approach does make managing your styles difficult and ultimately defeats the purpose of CSS itself. 
 
-To get around this problem, it has become standard practice for mail platforms to automatically inline CSS contained within the header of an email (in between the `<style></style>` elements) to the style (`style=""`)tag of the element they apply to.
+To get around this problem, it has become standard practice for mail platforms to automatically inline CSS contained within the header of an email (styles in between the `<style></style>` elements) to the style tag of the element they apply to (`style=""`).
 
-In Vero, inlining CSS is included in our pre-mail processes—taking place betweeen the time you click schedule and the time an email leaves our mail servers.
+This approach makes marketer's lives easier as they can style using CSS classes, and email makes email rendering more consistent between clients (Gmail, Outlook, Mail etc.) as every style is hardcoded on the element itself.
+
+In Vero, inlining CSS is included in our pre-mail processes, occurring automatically betweeen the time you click schedule and the time an email leaves our mail servers.
 
 ##Ensuring your media queries are not inlined
 
