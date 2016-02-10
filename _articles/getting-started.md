@@ -10,7 +10,7 @@ Welcome to Vero! We're thrilled you've chosen to send amazing marketing campaign
 
 This guide is your step by step guide to getting from zero to email marketing hero.
 
-Use this guide for: 
+Use this guide for:
 
 - **[Setting up your project](#1)**
 - **[Add multiple team logins](#2)**
@@ -22,7 +22,7 @@ Use this guide for:
 
 <h2 id="1">Setting up your project</h2>
 
-By default your Vero account will have a Production and a Sandbox project. You can add as many projects as you’d like. Each project is it’s own, siloed environment with its own API Keys and user database. [Learn more about a project](/articles/what-is-a-project.html).
+By default your Vero account will have a project already created with the same name as your company name. You can add as many projects along side this as you’d like. Each project is it’s own, siloed environment with its own API Keys and user database. [Learn more about a project](/articles/what-is-a-project.html).
 
 Projects are useful for testing as you can set projects to different send modes:
 
@@ -43,7 +43,7 @@ By default, your Sandbox project is set to **offline** as denoted by the gray co
 
 <h2 id="2">Add multiple team logins</h2>
 
-The creator of a Vero account is the primary administrator. 
+The creator of a Vero account is the primary administrator.
 
 Additional users can be invited to your Vero account by visiting the *[Account > Team](https://app.getvero.com/account/team)* page. Team members are sent an invite email and invited to create their own password (you will see Invite Pending next to any user that has not yet accepted their invite and created a password).
 
@@ -62,9 +62,9 @@ There are three levels of account access in Vero:
 
 <h2 id="3">Setup Domain Authentication</h2>
 
-Deliverability is the word used to describe the process of getting emails into inboxes. Deliverability is super important and we take it seriously at Vero. 
+Deliverability is the word used to describe the process of getting emails into inboxes. Deliverability is super important and we take it seriously at Vero.
 
-By default, Vero works with [Mailgun](http://mailgun.com/) (a company owned by Rackspace) to help ensure we send your emails with the highest levels of success. 
+By default, Vero works with [Mailgun](http://mailgun.com/) (a company owned by Rackspace) to help ensure we send your emails with the highest levels of success.
 
 One of our success engineers will inform you about our plans for allocating dedicated IPs and warming up those IPs if your setup and scale demand this, otherwise you can assume all is in order and handled by Vero's engineers – we do the hard work for you. Feel free to ask questions at any time.
 
@@ -107,7 +107,7 @@ Many people also track extra customer properties or events using our backend API
 
 Having determined what data you are going to track on the front end, it is typical to want to ensure your data history (or at least the most important parts of it) is available in Vero.
 
-The easiest way to import data into Vero is to use CSVs - To do this, navigate to the **'Import/Export'** section from the sidebar. 
+The easiest way to import data into Vero is to use CSVs - To do this, navigate to the **'Import/Export'** section from the sidebar.
 
 You can import [customer CSV data](https://app.getvero.com/customers/csv/import) for each `customer`/`subscriber`/`user` along with **any event property**. Each column in your CSV can be imported as a customer property in Vero, such as `first_name`. **Ensure that any properties you’ve imported via the API are the same as those you are backfilling via CSV.**
 
@@ -125,7 +125,7 @@ We accept manual CSV imports (via the UI) up to 50,000 rows. To import larger da
 
 We know how much effort is required to create and maintain awesome email designs. We've made it easy to upload your existing Vero templates and now with editable tags you change the content without having to edit the html.
 
-Setting up templates correctly at the outset will enable you and your team to move quickly in Vero. The best place to start learning about how Vero handles templates is to read our extensive [Using HTML templates in Vero](/articles/using-html-templates-in-vero.html) help article. 
+Setting up templates correctly at the outset will enable you and your team to move quickly in Vero. The best place to start learning about how Vero handles templates is to read our extensive [Using HTML templates in Vero](/articles/using-html-templates-in-vero.html) help article.
 
 As a helpful summary, here are the key points to understand about Vero’s templates:
 
@@ -143,6 +143,3 @@ If you have questions setting up your templates or want help importing them from
 1. Export your custom templates from another email platform or as created by your design team.
 2. Mark up any elements you want to be editable with the `vero-editable` CSS class, as outlined in our [help document on template management](/articles/using-html-templates-in-vero.html).
 3. [Upload](https://app.getvero.com/templates/upload) your templates into Vero.
-
-
-
