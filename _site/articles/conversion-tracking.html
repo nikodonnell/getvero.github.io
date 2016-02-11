@@ -90,9 +90,9 @@
 
 <p>Vero can track the conversions from an email campaign automatically.</p>
 
-<p>You can track conversions for newsletters, behavioral or transactional emails. To do so, you must define which <code>event</code> will be considered a conversion when creating your campaign.</p>
+<p>You can track conversions for newsletters, behavioral or transactional emails. To do so, you must define which <code class="highlighter-rouge">event</code> will be considered a conversion when creating your campaign.</p>
 
-<p>When creating a newsletter, you select the conversion <code>event</code> when editing the content of your newsletter as shown below:</p>
+<p>When creating a newsletter, you select the conversion <code class="highlighter-rouge">event</code> when editing the content of your newsletter as shown below:</p>
 
 <p><img src="/assets/screenshots/vero.conversions.newsletter.png" alt="Conversion tracking email newsletter" /></p>
 
@@ -102,41 +102,42 @@
 
 <h2 id="conversion-types">Conversion types</h2>
 
-<p>Once you have defined a conversion <code>event</code> Vero will start tracking conversions automatically.</p>
+<p>Once you have defined a conversion <code class="highlighter-rouge">event</code> Vero will start tracking conversions automatically.</p>
 
 <p>Conversions are reported on the <em>Campaigns</em> screen and also on specific campaign reports. Vero tracks three different types of conversions.</p>
 
 <ol>
-  <li><strong>Direct conversion</strong> are tracked when a recipient clicks on a link in one of your emails, returns to your site and takes an action in the <strong>same session</strong>. Vero handles this using <code>conv_id</code> parameter attached to links in your emails.</li>
+  <li><strong>Direct conversion</strong> are tracked when a recipient clicks on a link in one of your emails, returns to your site and takes an action in the <strong>same session</strong>. Vero handles this using <code class="highlighter-rouge">conv_id</code> parameter attached to links in your emails.</li>
   <li><strong>View through conversions</strong> are tracked when a user opens the email, does not click a link and returns to your site to complete the conversion event within a set time period. In this instance, we only track the conversion if it is within the conversion window and we assign it to the most recent campaign the user received <strong>and</strong> opened.</li>
   <li><strong>Indirect conversions</strong> are tracked when a user receives a campaign, <strong>does not</strong> open or click the email and later completes the conversion event on your website. The conversion is only tracked if it is within the conversion window and the conversion is assigned to the campaign most recently received by the user. Indirect conversions are useful when running an A/B test with hold-out groups (negative variations), so Vero can track the actions of contacts that are part of a hold-out group and therefore do not even receive a particular campaign.</li>
 </ol>
 
 <p>You can customise the conversion window used to track view through and direct conversions by visiting <em>Settings &gt; Advanced</em>.</p>
 
-<p>By default, this window is set to <code>30 days</code>.</p>
+<p>By default, this window is set to <code class="highlighter-rouge">30 days</code>.</p>
 
 <h2 id="setting-up-direct-conversion-tracking-with-the-vero-api">Setting up direct conversion tracking with the Vero API</h2>
 
-<p>When using our Javascript library, Vero will automatically handle direct conversion tracking. Our Javascript library will recognise the <code>conv_id</code> parameter and assign it to any events tracked during that session, allowing Vero to track the conversion against the correct user and campaign.</p>
+<p>When using our Javascript library, Vero will automatically handle direct conversion tracking. Our Javascript library will recognise the <code class="highlighter-rouge">conv_id</code> parameter and assign it to any events tracked during that session, allowing Vero to track the conversion against the correct user and campaign.</p>
 
-<p>If you are using one of Vero’s backend libraries, you will need to manually store and refer to the <code>conv_id</code> parameter when tracking events.</p>
+<p>If you are using one of Vero’s backend libraries, you will need to manually store and refer to the <code class="highlighter-rouge">conv_id</code> parameter when tracking events.</p>
 
-<p>To do this, grab and store the <code>conv_id</code> parameter in a temporary session cookie (if the parameter is present with a request).</p>
+<p>To do this, grab and store the <code class="highlighter-rouge">conv_id</code> parameter in a temporary session cookie (if the parameter is present with a request).</p>
 
-<p>You should then append this value with any event <code>track</code> request that you make to Vero whilst this cookie is set. To learn how to <code>track</code> an event, refer to our <a href="https://www.getvero.com/api">API reference</a>.</p>
+<p>You should then append this value with any event <code class="highlighter-rouge">track</code> request that you make to Vero whilst this cookie is set. To learn how to <code class="highlighter-rouge">track</code> an event, refer to our <a href="https://www.getvero.com/api">API reference</a>.</p>
 
-<p>When tracking an event you can append an array called <code>extras</code>. To track conversions correctly, insert the stored value from <code>conv_id</code> using the variable <code>vero_conv</code>.</p>
+<p>When tracking an event you can append an array called <code class="highlighter-rouge">extras</code>. To track conversions correctly, insert the stored value from <code class="highlighter-rouge">conv_id</code> using the variable <code class="highlighter-rouge">vero_conv</code>.</p>
 
 <p>Here’s a basic example request:</p>
 
-<pre><code>curl -X POST 'https://api.getvero.com/api/v2/events/track'
+<div class="highlighter-rouge"><pre class="highlight"><code>curl -X POST 'https://api.getvero.com/api/v2/events/track'
 \ -d auth_token="your_auth_token"
 \ -d identity='{"id": 1234, "email": "tyrion@lannister.com"}'
 \ -d event_name="Viewed product"
 \ -d data='{"product_name": "Red T-shirt", "product_url": "http://www.yourdomain.com/products/red-t-shirt"}'
 \ -d extras='{"vero_conv": "1234"}'
 </code></pre>
+</div>
 
 <p>Once setup, you’ll be successfully tracking conversions of all types.</p>
 
@@ -160,8 +161,6 @@
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

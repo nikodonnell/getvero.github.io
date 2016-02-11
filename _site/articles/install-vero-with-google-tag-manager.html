@@ -92,13 +92,14 @@
 
 <p>Grab the following tag code below</p>
 
-<pre><code class="language-javascript">  &lt;script type='text/javascript'&gt;
-    var _veroq = _veroq || [];
-    _veroq.push(['init', { api_key: 'YOUR_API_KEY'} ]);
+<div class="highlighter-rouge"><pre class="highlight"><code>  <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s1">'text/javascript'</span><span class="o">&gt;</span>
+    <span class="kd">var</span> <span class="nx">_veroq</span> <span class="o">=</span> <span class="nx">_veroq</span> <span class="o">||</span> <span class="p">[];</span>
+    <span class="nx">_veroq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="s1">'init'</span><span class="p">,</span> <span class="p">{</span> <span class="na">api_key</span><span class="p">:</span> <span class="s1">'YOUR_API_KEY'</span><span class="p">}</span> <span class="p">]);</span>
 
-    (function() {var ve = document.createElement('script'); ve.type = 'text/javascript'; ve.async = true; ve.src = '//d3qxef4rp70elm.cloudfront.net/m.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ve, s);})();
-  &lt;/script&gt;
-</code></pre>
+    <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span><span class="kd">var</span> <span class="nx">ve</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">'script'</span><span class="p">);</span> <span class="nx">ve</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="s1">'text/javascript'</span><span class="p">;</span> <span class="nx">ve</span><span class="p">.</span><span class="nx">async</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span> <span class="nx">ve</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s1">'//d3qxef4rp70elm.cloudfront.net/m.js'</span><span class="p">;</span> <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">'script'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span> <span class="nx">s</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">ve</span><span class="p">,</span> <span class="nx">s</span><span class="p">);})();</span>
+  <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre>
+</div>
 
 <p><em>Don’t forget to change your API Key with the you can find in the app under Settings &gt; Project</em></p>
 
@@ -111,14 +112,15 @@
 
 <p>Now that our library is setup you need to configure Vero to track your customers. In Google Tag Manager, create a new tag that loads on every page. Copy and paste this code:</p>
 
-<pre><code class="language-javascript">  &lt;script&gt;
-    _veroq.push(['user', {
-      id: 'CUSTOMER_ID',
-      email: 'CUSTOMER_EMAIL'
-      // Note that you can add more properties such as first_name, last_name, etc...
-    }]);
-  &lt;/script&gt;
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code>  <span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+    <span class="nx">_veroq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="s1">'user'</span><span class="p">,</span> <span class="p">{</span>
+      <span class="na">id</span><span class="p">:</span> <span class="s1">'CUSTOMER_ID'</span><span class="p">,</span>
+      <span class="na">email</span><span class="p">:</span> <span class="s1">'CUSTOMER_EMAIL'</span>
+      <span class="c1">// Note that you can add more properties such as first_name, last_name, etc...</span>
+    <span class="p">}]);</span>
+  <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre>
+</div>
 
 <p>When setting up this code you need to tell us the current logged-in customer’s ID and email address. The most common way to do this is to use a Macro in Google Tag Manager.</p>
 
@@ -163,8 +165,6 @@
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

@@ -86,34 +86,35 @@
       <div><span class="categories">campaigns</span></div>
       <h1 id="scope-a-behavioral-email-by-event-property-the-advanced-scope-by-feature">Scope a behavioral email by event property (the advanced ‘scope by’ feature)</h1>
 
-<p>Vero’s <code>scope by</code> filter is an advanced feature of behavioral campaigns. The best way to illustrate the <code>scope by</code> feature is an example.</p>
+<p>Vero’s <code class="highlighter-rouge">scope by</code> filter is an advanced feature of behavioral campaigns. The best way to illustrate the <code class="highlighter-rouge">scope by</code> feature is an example.</p>
 
-<p>Imagine you are an eCommerce store, selling products <em>A</em>, <em>B</em> and <em>C</em> and that you track an event in Vero called <code>Viewed product</code> whenever a customer views any of your products, whenever a customer purchases a product, you also track an event called <code>Purchased product</code>.</p>
+<p>Imagine you are an eCommerce store, selling products <em>A</em>, <em>B</em> and <em>C</em> and that you track an event in Vero called <code class="highlighter-rouge">Viewed product</code> whenever a customer views any of your products, whenever a customer purchases a product, you also track an event called <code class="highlighter-rouge">Purchased product</code>.</p>
 
 <h2 id="an-ordinary-abandonment-campaign">An ordinary abandonment campaign</h2>
 
-<p>In this example, you would likely track the following event properties with your <code>Viewed product</code> and <code>Purchased product</code> events:</p>
+<p>In this example, you would likely track the following event properties with your <code class="highlighter-rouge">Viewed product</code> and <code class="highlighter-rouge">Purchased product</code> events:</p>
 
-<pre><code class="language-json">{
-  sku: '1234',
-  price: 20.00,
-  name: 'Product A',
-}
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="err">sku:</span><span class="w"> </span><span class="err">'1234',</span><span class="w">
+  </span><span class="err">price:</span><span class="w"> </span><span class="err">20.00,</span><span class="w">
+  </span><span class="err">name:</span><span class="w"> </span><span class="err">'Product</span><span class="w"> </span><span class="err">A',</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p>You setup a behavioral campaign that targets users that view a product but don’t purchase it. You might setup a campaign like this:</p>
 
 <p><img src="/assets/screenshots/vero.triggered-abandonment-campaign.png" alt="Triggered abandonment campaign" /></p>
 
-<p>If a customer triggered <code>Viewed product</code> for products <em>A</em>, <em>B</em> <strong>and</strong> <em>C</em>, this campaign would be triggered for evaluation three times.</p>
+<p>If a customer triggered <code class="highlighter-rouge">Viewed product</code> for products <em>A</em>, <em>B</em> <strong>and</strong> <em>C</em>, this campaign would be triggered for evaluation three times.</p>
 
-<p>At run time, Vero will check the conditions. In the screenshot above, we can see that Vero will only send the email if the user has not triggered <code>Purchased product</code>. If you don’t use the <code>scope by</code> feature, then if a customer triggers <code>Purchased product</code> for <strong>any</strong> of the products <em>A</em>, <em>B</em> or <em>C</em>, this email <strong>will not be sent</strong> as they will not meet the conditions.</p>
+<p>At run time, Vero will check the conditions. In the screenshot above, we can see that Vero will only send the email if the user has not triggered <code class="highlighter-rouge">Purchased product</code>. If you don’t use the <code class="highlighter-rouge">scope by</code> feature, then if a customer triggers <code class="highlighter-rouge">Purchased product</code> for <strong>any</strong> of the products <em>A</em>, <em>B</em> or <em>C</em>, this email <strong>will not be sent</strong> as they will not meet the conditions.</p>
 
 <h2 id="an-abandonment-campaign-using-scope-by">An abandonment campaign using ‘scope by’</h2>
 
-<p>If you want to ensure that customers get your follow up email for <strong>each of the products</strong> they don’t purchase independently, you can tell Vero to evaluate the conditions of the email scoping by an <strong>event property</strong>. For example, the property <code>sku</code> could be used to ensure the trigger event and any events in the conditions refer to the same product.</p>
+<p>If you want to ensure that customers get your follow up email for <strong>each of the products</strong> they don’t purchase independently, you can tell Vero to evaluate the conditions of the email scoping by an <strong>event property</strong>. For example, the property <code class="highlighter-rouge">sku</code> could be used to ensure the trigger event and any events in the conditions refer to the same product.</p>
 
-<p>When evaluating the campaign, Vero will check that <strong>both</strong> the <code>Viewed product</code> and <code>Purchased product</code> events have the <strong>exact same</strong> <code>sku</code> value.</p>
+<p>When evaluating the campaign, Vero will check that <strong>both</strong> the <code class="highlighter-rouge">Viewed product</code> and <code class="highlighter-rouge">Purchased product</code> events have the <strong>exact same</strong> <code class="highlighter-rouge">sku</code> value.</p>
 
 <p>Here is an example of how you would configure this in Vero:</p>
 
@@ -141,8 +142,6 @@
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

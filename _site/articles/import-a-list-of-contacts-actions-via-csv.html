@@ -83,22 +83,23 @@
 <div class="article single">
   <div class="main-sidebar">
     <article class="main-wrapper  algolia__initial-content js-algolia__initial-content">
-      <div><span class="categories">event data</span></div>
+      <div><span class="categories">eventdata</span></div>
       <h1 id="import-a-list-of-the-past-events-contacts-have-triggered-via-csv">Import a list of the past events contacts’ have triggered via CSV</h1>
 
 <p>Vero tracks not only your contacts but also the <strong>events</strong> they perform in your application. To learn more about events, read <a href="http://app.getvero.com/templates">What is an Event?</a>.</p>
 
 <p>There are times when you will want to backfill or manually add customer events. An example would be importing all of your contacts’ past orders.</p>
 
-<p>When importing a list of past events, Vero only supports three colums: <strong>email</strong> (who did the event), <strong>name</strong> (the name of the event, e.g. Completes checkout) and the <strong>date and time</strong> of the event (e.g. <code>2015-01-15 01:15+10</code>).</p>
+<p>When importing a list of past events, Vero only supports three colums: <strong>email</strong> (who did the event), <strong>name</strong> (the name of the event, e.g. Completes checkout) and the <strong>date and time</strong> of the event (e.g. <code class="highlighter-rouge">2015-01-15 01:15+10</code>).</p>
 
-<p>Here’s an example of a CSV file that would update the contact profile of <code>tyrion.lannister@casterlyrock.com</code> with records of three checkout events in January 2015.</p>
+<p>Here’s an example of a CSV file that would update the contact profile of <code class="highlighter-rouge">tyrion.lannister@casterlyrock.com</code> with records of three checkout events in January 2015.</p>
 
-<pre><code>email, event_name, time
+<div class="highlighter-rouge"><pre class="highlight"><code>email, event_name, time
 tyrion.lannister@casterlyrock.com, Completes checkout, 2015-01-02 13:05+10
 tyrion.lannister@casterlyrock.com, Completes checkout, 2015-01-15 02:00+10
 tyrion.lannister@casterlyrock.com, Completes checkout, 2015-01-25 04:20+10
 </code></pre>
+</div>
 
 <p>To import a CSV select the ‘<strong>Import/Export</strong>’ menu item in the left sidebar.</p>
 
@@ -106,7 +107,7 @@ tyrion.lannister@casterlyrock.com, Completes checkout, 2015-01-25 04:20+10
 
 <p><img src="/assets/screenshots/vero.contacts_csv_import.png" alt="Import CSV" /></p>
 
-<p>You can only import <code>.csv</code> files. If you are using Microsoft Excel or Mac Sheets, select <code>File &gt; Save as... &gt; CSV</code> to export your data in the correct format. <code>.xls</code>, <code>.xlsx</code> and other formats will not be accepted when you try to upload your file.</p>
+<p>You can only import <code class="highlighter-rouge">.csv</code> files. If you are using Microsoft Excel or Mac Sheets, select <code class="highlighter-rouge">File &gt; Save as... &gt; CSV</code> to export your data in the correct format. <code class="highlighter-rouge">.xls</code>, <code class="highlighter-rouge">.xlsx</code> and other formats will not be accepted when you try to upload your file.</p>
 
 <p>Before finalising the import, Vero will ask you if you want these events to <em>trigger emails in Vero</em>. By default, importing CSV files with a list of events is passive a these events won’t trigger your automated campaigns. If you want to have these events act as triggers, simply tick the appropriate box as part of your import:</p>
 
@@ -138,8 +139,6 @@ tyrion.lannister@casterlyrock.com, Completes checkout, 2015-01-25 04:20+10
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

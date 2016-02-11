@@ -132,13 +132,15 @@ On the landing page dashboard, scroll down and on the right side you will see a 
 
 <p><strong>Important</strong>: The URL provided to Unbounce must be a combination of the form URL with “/unbounce”. For example, if the Vero form URL is:</p>
 
-<pre><code>https://app.getvero.com/forms/abc123
+<div class="highlighter-rouge"><pre class="highlight"><code>https://app.getvero.com/forms/abc123
 </code></pre>
+</div>
 
 <p>then the URL you provide to Unbounce is:</p>
 
-<pre><code>https://app.getvero.com/forms/abc123/unbounce
+<div class="highlighter-rouge"><pre class="highlight"><code>https://app.getvero.com/forms/abc123/unbounce
 </code></pre>
+</div>
 
 <p>Simply paste this URL into the pop-up on Unbounce:</p>
 
@@ -156,15 +158,15 @@ On the landing page dashboard, scroll down and on the right side you will see a 
 
 <p><img src="/assets/screenshots/unbounce.field-mapping.png" alt="Unbounce Field Mapping" /></p>
 
-<p>You <strong>must</strong> map the <code>Email Address</code> Unbounce Form Field to a customer WebHook Field called <code>email</code>, like so:</p>
+<p>You <strong>must</strong> map the <code class="highlighter-rouge">Email Address</code> Unbounce Form Field to a customer WebHook Field called <code class="highlighter-rouge">email</code>, like so:</p>
 
 <p><img src="/assets/screenshots/unbounce.mapping-1.png" alt="Unbounce Mapping Step 1" /></p>
 
 <p><img src="/assets/screenshots/unbounce.mapping-2.png" alt="Unbounce Mapping Step 2" /></p>
 
-<p>Other Unbounce Form Fields can be mapped as required. When mapping to Vero’s WebHook form fields you need to use the <em>Add new field</em> option and name the variable using the syntax <code>user_variable_name</code>. I.e. put <code>user_</code> out front. You should also add <code>_</code> in the places of spaces in variable names. Vero strips these out anyway!</p>
+<p>Other Unbounce Form Fields can be mapped as required. When mapping to Vero’s WebHook form fields you need to use the <em>Add new field</em> option and name the variable using the syntax <code class="highlighter-rouge">user_variable_name</code>. I.e. put <code class="highlighter-rouge">user_</code> out front. You should also add <code class="highlighter-rouge">_</code> in the places of spaces in variable names. Vero strips these out anyway!</p>
 
-<p>For example, you would map Unbounce Form Field <code>First Name</code> to Webhook Field Name <code>user_First_Name</code> and so on. This allows you to store the data you collect from customers against their profiles in Vero:</p>
+<p>For example, you would map Unbounce Form Field <code class="highlighter-rouge">First Name</code> to Webhook Field Name <code class="highlighter-rouge">user_First_Name</code> and so on. This allows you to store the data you collect from customers against their profiles in Vero:</p>
 
 <p><img src="/assets/screenshots/vero.profile_after_import.png" alt="Profile After Import" /></p>
 
@@ -190,17 +192,18 @@ On the landing page dashboard, scroll down and on the right side you will see a 
 
 <p>Copy the first snippet from this page (the Vero library):</p>
 
-<pre><code class="language-javascript">  &lt;script type='text/javascript'&gt;
-    var _veroq = _veroq || [];
-    _veroq.push(['init', { api_key: 'YOUR_API_KEY'} ]);
+<div class="highlighter-rouge"><pre class="highlight"><code>  <span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s1">'text/javascript'</span><span class="o">&gt;</span>
+    <span class="kd">var</span> <span class="nx">_veroq</span> <span class="o">=</span> <span class="nx">_veroq</span> <span class="o">||</span> <span class="p">[];</span>
+    <span class="nx">_veroq</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="s1">'init'</span><span class="p">,</span> <span class="p">{</span> <span class="na">api_key</span><span class="p">:</span> <span class="s1">'YOUR_API_KEY'</span><span class="p">}</span> <span class="p">]);</span>
 
-    (function() {var ve = document.createElement('script'); ve.type = 'text/javascript'; ve.async = true; ve.src = '//d3qxef4rp70elm.cloudfront.net/m.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ve, s);})();
-  &lt;/script&gt;
-</code></pre>
+    <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span><span class="kd">var</span> <span class="nx">ve</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">'script'</span><span class="p">);</span> <span class="nx">ve</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="s1">'text/javascript'</span><span class="p">;</span> <span class="nx">ve</span><span class="p">.</span><span class="nx">async</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span> <span class="nx">ve</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s1">'//d3qxef4rp70elm.cloudfront.net/m.js'</span><span class="p">;</span> <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">'script'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span> <span class="nx">s</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">ve</span><span class="p">,</span> <span class="nx">s</span><span class="p">);})();</span>
+  <span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre>
+</div>
 
 <p>Go back to the Unbounce editor and select <em>Javascripts</em> at the bottom of the screen.</p>
 
-<p>Paste the code you copied into the editor and name the snippet <code>Vero Library</code>. Choose <strong>head</strong> in the placement drop down:</p>
+<p>Paste the code you copied into the editor and name the snippet <code class="highlighter-rouge">Vero Library</code>. Choose <strong>head</strong> in the placement drop down:</p>
 
 <p><img src="/assets/screenshots/unbounce.scripts.png" alt="Unbounce Script" /></p>
 
@@ -216,7 +219,7 @@ On the landing page dashboard, scroll down and on the right side you will see a 
 
 <p>Then, copy and paste the following code after it:</p>
 
-<pre><code>&lt;script type="text/javascript"&gt;
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;script type="text/javascript"&gt;
   var _veroq = _veroq || [];
   var getUrlParams = function () {
     var params = {},
@@ -240,6 +243,7 @@ On the landing page dashboard, scroll down and on the right side you will see a 
   _veroq.push(['track', 'Filled out unbounce capture form']);
 &lt;/script&gt;
 </code></pre>
+</div>
 
       <div class="support-block white-block">
         <h3>Didn't find what you were looking for?</h3>
@@ -261,8 +265,6 @@ On the landing page dashboard, scroll down and on the right side you will see a 
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

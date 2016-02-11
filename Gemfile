@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.5.3'
+gem 'jekyll', '~> 3.1.1'
+gem 'jekyll-coffeescript'
 
 group :jekyll_plugins do
-  gem 'algoliasearch-jekyll', '~> 0.4.3'
+  gem 'algoliasearch-jekyll', '~> 0.6.0'
 end

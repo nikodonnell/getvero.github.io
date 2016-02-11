@@ -83,7 +83,7 @@
 <div class="article single">
   <div class="main-sidebar">
     <article class="main-wrapper  algolia__initial-content js-algolia__initial-content">
-      <div><span class="categories">customer data</span></div>
+      <div><span class="categories">customerdata</span></div>
       <h1 id="identifying-customers">Identifying Customers</h1>
 
 <p>Vero makes it easy to track your customers’ lifecycle events. This could be signing up, viewing a product, adding a product to the shopping cart, using feature X, signing up for a paid subscription and so on.</p>
@@ -96,21 +96,23 @@
 
 <p>You should identify a customer when they first subscribe to a newsletter or register for your service. To track a customer using the javascript library, you do the following:</p>
 
-<pre><code>_veroq.push(['user', {
+<div class="highlighter-rouge"><pre class="highlight"><code>_veroq.push(['user', {
 	id: 'support@getvero.com',
 	email: 'support@getvero.com'
 }]);
 </code></pre>
+</div>
 
 <p>What this does is tell Vero to store a cookie for this customer with a unique identifier. It also prepares the library to track any future events against this particular email address. Customers are identified via their email address but you can also record specific attributes alongside this. These will show up in the customer’s profile and common examples include the age, location and gender. Here’s how you might record their age and location:</p>
 
-<pre><code>_veroq.push(['user', {
+<div class="highlighter-rouge"><pre class="highlight"><code>_veroq.push(['user', {
 	id: 'support@getvero.com',
 	email: 'support@getvero.com',
 	age: 24,
 	location: 'San Francisco'
 }]);
 </code></pre>
+</div>
 
 <p><strong>Note</strong>: You can override the current stored customer by simply re-identifying a customer. This will overwrite the cookie instantly.</p>
 
@@ -128,11 +130,12 @@
 
 <p>After a customer submits your newsletter form, add the following javascript alongside the <em>thank you</em> notice on the homepage:</p>
 
-<pre><code>_veroq.push(['user', {
+<div class="highlighter-rouge"><pre class="highlight"><code>_veroq.push(['user', {
 	id: 'customer@domain.com',
 	email: 'customer@domain.com'
 }]);
 </code></pre>
+</div>
 
 <p>When a customer signs up or logs into their account, add the above javascript on the <em>Dashboard</em> page.</p>
 
@@ -141,16 +144,17 @@ step two. This way you can capture each step of a customer’s progression thro
 
 <h3 id="facebook-connect">Facebook Connect</h3>
 
-<p>If you use Facebook Connect to allow customers to sign up, you can easily identify the customer when the Facebook OAuth returns them to your site. Depending on your implementation, Facebook will generally redirect the customer back to your website in the following format: <code>YOUR_REDIRECT_URI#</code></p>
+<p>If you use Facebook Connect to allow customers to sign up, you can easily identify the customer when the Facebook OAuth returns them to your site. Depending on your implementation, Facebook will generally redirect the customer back to your website in the following format: <code class="highlighter-rouge">YOUR_REDIRECT_URI#</code></p>
 
-<p>In this instance you can use the Facebook <code>USER_ACCESS_TOKEN</code> to get more information about the customer. In order to get their email (which you need for email marketing!) you must request access to the ‘email’ scope. See the 
+<p>In this instance you can use the Facebook <code class="highlighter-rouge">USER_ACCESS_TOKEN</code> to get more information about the customer. In order to get their email (which you need for email marketing!) you must request access to the ‘email’ scope. See the 
 <a href="https://developers.facebook.com/docs/guides/web/">Facebook Documentation</a> for further information. Once you have the customer’s email, simply call the following code to identify them:</p>
 
-<pre><code>_veroq.push(['user', {
+<div class="highlighter-rouge"><pre class="highlight"><code>_veroq.push(['user', {
 	id: 'customer@domain.com',
 	email: 'customer@domain.com'
 }]);
 </code></pre>
+</div>
 
       <div class="support-block white-block">
         <h3>Didn't find what you were looking for?</h3>
@@ -172,8 +176,6 @@ step two. This way you can capture each step of a customer’s progression thro
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

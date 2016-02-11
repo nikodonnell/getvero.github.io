@@ -83,19 +83,20 @@
 <div class="article single">
   <div class="main-sidebar">
     <article class="main-wrapper  algolia__initial-content js-algolia__initial-content">
-      <div><span class="categories">customer data</span></div>
+      <div><span class="categories">customerdata</span></div>
       <h1 id="how-vero-cookies-customers-on-your-website-using-javascript">How Vero cookies customers on your website using Javascript?</h1>
 
 <p>This only applies to customers using Vero’s own Javascript API Library. Our backend libraries do not use cookies.</p>
 
-<p>When using Vero’s Javascript API, you call the <code>identify</code>` method whenever you get a customer’s permission to email them (logged in customers, customers that opt in as they complete a checkout or customers that complete an explicit subscribe form).</p>
+<p>When using Vero’s Javascript API, you call the <code class="highlighter-rouge">identify</code>` method whenever you get a customer’s permission to email them (logged in customers, customers that opt in as they complete a checkout or customers that complete an explicit subscribe form).</p>
 
 <p>Having gotten your customers’ permission to email them, they may not enter their email each time they return to your website.</p>
 
 <p>To help solve this potential information gap, when you call the following code:</p>
 
-<pre><code>_veroq.push(['user', {email: 'tyrion.lannister@casterlyrock.co'}]);
+<div class="highlighter-rouge"><pre class="highlight"><code>_veroq.push(['user', {email: 'tyrion.lannister@casterlyrock.co'}]);
 </code></pre>
+</div>
 
 <p>Vero adds a new customer to your Vero database and drops a cookie that identifies this customer on your website.</p>
 
@@ -107,10 +108,11 @@
 
 <p>Vero automatically append the following parameter to any link in an outgoing email. This enables the tracking of customers even if they don’t provide their email address.</p>
 
-<pre><code>?vero_id={{user.id}}
+<div class="highlighter-rouge"><pre class="highlight"><code>?vero_id={{user.id}}
 </code></pre>
+</div>
 
-<p>If the customer clicks on a link to your website (or any page on which you have Vero’s main Javascript Library installed), the customer will be immediately identified via Vero, without you having to explicitly call the <code>identify</code> method.</p>
+<p>If the customer clicks on a link to your website (or any page on which you have Vero’s main Javascript Library installed), the customer will be immediately identified via Vero, without you having to explicitly call the <code class="highlighter-rouge">identify</code> method.</p>
 
 <p>In this way you can track customers as they move between devices, or as you direct them to new landing pages.</p>
 
@@ -134,8 +136,6 @@
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

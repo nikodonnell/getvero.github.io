@@ -116,141 +116,147 @@
 
 <h3 id="webhooks-structure-for-email-events">Webhooks structure for email events</h3>
 
-<p>The follow list outlines each of the <code>type</code> values:</p>
+<p>The follow list outlines each of the <code class="highlighter-rouge">type</code> values:</p>
 
 <ul>
-  <li><code>sent</code> – When an email has been sent by Vero</li>
-  <li><code>delivered</code> – When an email has been delivered to the ISP server</li>
-  <li><code>opened</code> – When a customer has opened an email</li>
-  <li><code>clicked</code> – When a customer has clicked an email</li>
-  <li><code>bounced</code> – When an email has not been delivered to the ISP server</li>
-  <li><code>unsubscribed</code> – When a customer has unsubscribed</li>
+  <li><code class="highlighter-rouge">sent</code> – When an email has been sent by Vero</li>
+  <li><code class="highlighter-rouge">delivered</code> – When an email has been delivered to the ISP server</li>
+  <li><code class="highlighter-rouge">opened</code> – When a customer has opened an email</li>
+  <li><code class="highlighter-rouge">clicked</code> – When a customer has clicked an email</li>
+  <li><code class="highlighter-rouge">bounced</code> – When an email has not been delivered to the ISP server</li>
+  <li><code class="highlighter-rouge">unsubscribed</code> – When a customer has unsubscribed</li>
 </ul>
 
 <p><strong>Sent:</strong></p>
 
-<pre><code>    {
-        "sent_at":1435016238,
-        "type":"sent",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        },
-        "campaign": {
-            "id":987,
-            "type":"transactional",
-            "name":"Order confirmation",
-            "subject":"Your order is being processed!",
-            "trigger-event":"purchased item",
-            "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
-            "variation":"Variation A"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"sent_at"</span><span class="p">:</span><span class="mi">1435016238</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"sent"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nt">"campaign"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">987</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"transactional"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Order confirmation"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"subject"</span><span class="p">:</span><span class="s2">"Your order is being processed!"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"trigger-event"</span><span class="p">:</span><span class="s2">"purchased item"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"permalink"</span><span class="p">:</span><span class="s2">"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"variation"</span><span class="p">:</span><span class="s2">"Variation A"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><strong>Delivered:</strong></p>
 
-<pre><code>    {
-        "delivered_at":1435016238,
-        "type":"delivered",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        },
-        "campaign": {
-            "id":987,
-            "type":"transactional",
-            "name":"Order confirmation",
-            "subject":"Your order is being processed!",
-            "trigger-event":"purchased item",
-            "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
-            "variation":"Variation A"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"delivered_at"</span><span class="p">:</span><span class="mi">1435016238</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"delivered"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nt">"campaign"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">987</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"transactional"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Order confirmation"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"subject"</span><span class="p">:</span><span class="s2">"Your order is being processed!"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"trigger-event"</span><span class="p">:</span><span class="s2">"purchased item"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"permalink"</span><span class="p">:</span><span class="s2">"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"variation"</span><span class="p">:</span><span class="s2">"Variation A"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><strong>Opened:</strong></p>
 
-<pre><code>    {
-        "opened_at":1435016238,
-        "user_agent":"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
-        "type":"opened",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        },
-        "campaign": {
-            "id":987,
-            "type":"transactional",
-            "name":"Order confirmation",
-            "subject":"Your order is being processed!",
-            "trigger-event":"purchased item",
-            "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
-            "variation":"Variation A"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"opened_at"</span><span class="p">:</span><span class="mi">1435016238</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user_agent"</span><span class="p">:</span><span class="s2">"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"opened"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nt">"campaign"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">987</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"transactional"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Order confirmation"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"subject"</span><span class="p">:</span><span class="s2">"Your order is being processed!"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"trigger-event"</span><span class="p">:</span><span class="s2">"purchased item"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"permalink"</span><span class="p">:</span><span class="s2">"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"variation"</span><span class="p">:</span><span class="s2">"Variation A"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><strong>Clicked:</strong></p>
 
-<pre><code>    {
-        "clicked_at":1435016238,
-        "user_agent":"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
-        "type":"clicked",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        },
-        "campaign": {
-            "id":987,
-            "type":"transactional",
-            "name":"Order confirmation",
-            "subject":"Your order is being processed!",
-            "trigger-event":"purchased item",
-            "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
-            "variation":"Variation A"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"clicked_at"</span><span class="p">:</span><span class="mi">1435016238</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user_agent"</span><span class="p">:</span><span class="s2">"Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"clicked"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nt">"campaign"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">987</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"transactional"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Order confirmation"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"subject"</span><span class="p">:</span><span class="s2">"Your order is being processed!"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"trigger-event"</span><span class="p">:</span><span class="s2">"purchased item"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"permalink"</span><span class="p">:</span><span class="s2">"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"variation"</span><span class="p">:</span><span class="s2">"Variation A"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><strong>Bounced:</strong></p>
 
-<pre><code>    {
-        "bounced_at":1435016238,
-        "bounce_type":"hard",
-        "type":"bounced",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        },
-        "campaign": {
-            "id":987,
-            "type":"transactional",
-            "name":"Order confirmation",
-            "subject":"Your order is being processed!",
-            "trigger-event":"purchased item",
-            "permalink":"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25",
-            "variation":"Variation A"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"bounced_at"</span><span class="p">:</span><span class="mi">1435016238</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"bounce_type"</span><span class="p">:</span><span class="s2">"hard"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"bounced"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nt">"campaign"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">987</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"transactional"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"name"</span><span class="p">:</span><span class="s2">"Order confirmation"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"subject"</span><span class="p">:</span><span class="s2">"Your order is being processed!"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"trigger-event"</span><span class="p">:</span><span class="s2">"purchased item"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"permalink"</span><span class="p">:</span><span class="s2">"http://app.getvero.com/view/1/341d64944577ac1f70f560e37db54a25"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"variation"</span><span class="p">:</span><span class="s2">"Variation A"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><strong>Unsubscribed:</strong></p>
 
-<pre><code>    {
-        "unsubscribed_at":1435016238,
-        "type":"unsubscribed",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"unsubscribed_at"</span><span class="p">:</span><span class="mi">1435016238</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"unsubscribed"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p>Key things to note:</p>
 
 <ul>
-  <li>The <code>trigger-event</code> value will be present for Transactional and Behavioral campaigns and represents the event that triggered the campaign.</li>
+  <li>The <code class="highlighter-rouge">trigger-event</code> value will be present for Transactional and Behavioral campaigns and represents the event that triggered the campaign.</li>
 </ul>
 
 <h3 id="webhook-structure-for-customer-updates">Webhook structure for customer updates</h3>
@@ -259,34 +265,36 @@
 
 <p><strong>User created:</strong></p>
 
-<pre><code>    {
-        "type":"user_created",
-        "user": {
-            "firstname":"Steve",
-            "company":"Vero",
-            "role":"Bot",
-            "id":123,
-            "email":"steve@getvero.com"
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"user_created"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"firstname"</span><span class="p">:</span><span class="s2">"Steve"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"company"</span><span class="p">:</span><span class="s2">"Vero"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"role"</span><span class="p">:</span><span class="s2">"Bot"</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p><strong>User updated:</strong></p>
 
-<pre><code>    {
-        "type":"user_updated",
-        "user": {
-            "id":123,
-            "email":"steve@getvero.com"
-        },
-        "changes": {
-            "_tags": {
-                "add": ["active-customer"],
-                "remove":["unactive-180-days"]
-            }
-        }
-    }
-</code></pre>
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="w">    </span><span class="p">{</span><span class="w">
+        </span><span class="nt">"type"</span><span class="p">:</span><span class="s2">"user_updated"</span><span class="p">,</span><span class="w">
+        </span><span class="nt">"user"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"id"</span><span class="p">:</span><span class="mi">123</span><span class="p">,</span><span class="w">
+            </span><span class="nt">"email"</span><span class="p">:</span><span class="s2">"steve@getvero.com"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nt">"changes"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="nt">"_tags"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+                </span><span class="nt">"add"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"active-customer"</span><span class="p">],</span><span class="w">
+                </span><span class="nt">"remove"</span><span class="p">:[</span><span class="s2">"unactive-180-days"</span><span class="p">]</span><span class="w">
+            </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span></code></pre>
+</div>
 
 <p>If you have any other questions regarding setting up webhooks, please write us an email. We’re here to help.</p>
 
@@ -310,8 +318,6 @@
       </div>
       <div class="white-block">
         <h3 class="gray-block-title">Related Articles</h3>
-        
-          
         
         <ul class="unstyled-list">
           

@@ -41,3 +41,4 @@ algolia:
 
 gems:
   - algoliasearch-jekyll
+  - jekyll-coffeescript
