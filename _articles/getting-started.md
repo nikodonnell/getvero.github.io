@@ -27,7 +27,7 @@ By default your Vero account will have a project already created with the same n
 Projects are useful for testing as you can set projects to different send modes:
 
 - **Live** - All emails are triggered and sent normally.
-- **Test** - Send all emails triggered by customers to a single email address (for testing).
+- **Test** - Send all emails triggered by customers to a single email address (for testing). For newsletters only a single email is sent.
 - **Offline** - Data is still captured and emails are still ‘triggered’, just not sent, so you can see them in the logs.
 
 By default, your Sandbox project is set to **offline** as denoted by the gray color of the project in the sidebar. We recommend using the Sandbox project with a testing server or test environment, if you have one. We also recommend setting your Production project to **Test** (orange) when you initially start sending live data to Vero, just to be safe.
