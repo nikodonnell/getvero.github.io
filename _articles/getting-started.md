@@ -30,15 +30,16 @@ Projects are useful for testing as you can set projects to different send modes:
 - **Test** - Send all emails triggered by customers to a single email address (for testing). For newsletters only a single email is sent.
 - **Offline** - Data is still captured and emails are still ‘triggered’, just not sent, so you can see them in the logs.
 
-By default, your Sandbox project is set to **offline** as denoted by the gray color of the project in the sidebar. We recommend using the Sandbox project with a testing server or test environment, if you have one. We also recommend setting your Production project to **Test** (orange) when you initially start sending live data to Vero, just to be safe.
+By default, your project is set to **Test** as denoted by the orange color of the project in the sidebar. We recommend keeping your project in **Test** mode while you get setup and until you want to send live emails to your customers. Once you have finished setting up your project by **[Tracking real time data](#4)** and **[Importing your existing data](#5)** you can flip your project to **Live** mode to start sending real emails to your customers.
 
-*Note* that you can clone campaigns between projects by selecting **[Clone](/articles/cloning-an-email.html)** in the dropdown next to a saved campaign, however customer data is isolated to each project.
+*Note: You can have as many projects as you like, for example, you could have a 'Sandbox' project (set to 'Test' mode) linked to your test environment and a 'Production' project (set to 'Live' mode) linked to your live environment*
+
+
+*Note: You can also clone campaigns between projects by selecting '[Clone](/articles/cloning-an-email.html)' in the dropdown next to a saved campaign, however customer data is isolated to each project.*
 
 ###To Do:
 
-1. Setup your test server environment to use Sandbox project in Vero (by [grabbing your API Keys](https://app.getvero.com/settings/project) when logged into your **Sandbox** project). Ensure this project is in **Offline** mode.
-2. Ensure you set your Production project to **Test** when you initially begin tracking data in  your production environment, to be on the safe side.
-
+1. Ensure your project is in **Test** mode while you get set up. 
 
 
 <h2 id="2">Add multiple team logins</h2>
@@ -47,7 +48,7 @@ The creator of a Vero account is the primary administrator.
 
 Additional users can be invited to your Vero account by visiting the *[Account > Team](https://app.getvero.com/account/team)* page. Team members are sent an invite email and invited to create their own password (you will see Invite Pending next to any user that has not yet accepted their invite and created a password).
 
-For each team member, access can be granted to each individual project within Vero. For example, a user may have access to your Sandbox project but not your Production project.
+For each team member, access can be granted to each individual project within Vero. 
 
 There are three levels of account access in Vero:
 
@@ -68,7 +69,7 @@ By default, Vero works with [Mailgun](http://mailgun.com/) (a company owned by R
 
 One of our success engineers will inform you about our plans for allocating dedicated IPs and warming up those IPs if your setup and scale demand this, otherwise you can assume all is in order and handled by Vero's engineers – we do the hard work for you. Feel free to ask questions at any time.
 
-You do however need to setup domain authentication. To do this, ensure you add a domain to your primary project (typically the default Production project) in Vero. Have an administrator head to *[Settings > Project details](https://app.getvero.com/settings/project)* and add the domain you will be sending from. From there, visit the *[Settings > Email Delivery](https://app.getvero.com/settings/providers)* menu and select **Request DNS Records**. You will then need to add the required DNS records to your sending domain.
+You do however need to setup domain authentication. To do this, ensure you add a domain to the appopraite project in Vero. Have an administrator head to *[Settings > Project details](https://app.getvero.com/settings/project)* and add the domain you will be sending from. From there, visit the *[Settings > Email Delivery](https://app.getvero.com/settings/providers)* menu and select **Request DNS Records**. You will then need to add the required DNS records to your sending domain.
 
 You can [read a detailed guide to domain authentication in Vero](/articles/how-to-setup-my-domain-signing-and-remove-via-getveromail-com-from-your-emails.html).
 
@@ -76,7 +77,7 @@ Note that you may also add your own Mailgun, Sendgrid, Mandrill or Dyn account f
 
 ###To Do:
 
-1. Have a Vero administrator add the domain you want to send your emails from under *[Settings > Project details](https://app.getvero.com/settings/project)* in your primary production project. Domain setup is per project so you want to configure your live setup in your ultimate Production project.
+1. Have a Vero administrator add the domain you want to send your emails from under *[Settings > Project details](https://app.getvero.com/settings/project)*. Domain setup is per project so make sure you configure your Domain in the correct project.
 2. Have a Vero administrator request the DNS records in that same project, found *[Settings > Email Delivery](https://app.getvero.com/settings/providers)*, but selecting Request DNS Records.
 3. Add the DNS records to your domain and return to Vero a few hours later and select Verify DNS Records on the *[Settings > Email Delivery](https://app.getvero.com/settings/providers)* page. Each of the records will go green once successfully verified, and emails will now be sent via your domain.
 4. In order to increase deliverability, it is generally a good practice to [import a CSV](#5) that has a tags column with the value `unsubscribed` with any previous unsubscribed customers' addresses before sending.
