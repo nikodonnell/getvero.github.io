@@ -11,7 +11,7 @@ By default, Vero will cookie a customer on the current unique domain. If a custo
 If you choose, you can tell Vero to cookie the customer at the root domain. To do so, add the following line of code just before the `</head>` tag on your website:
 
     <script>
-        _veroq.push(['domain', 'getvero.com']);
+        _veroq.push(['cookie_domain', 'getvero.com']);
     </script>
 
 This will ensure the cookie is stored at the root domain level. If you apply this code on all of your subdomians, your customers will be tracked between each of your subdomains.
