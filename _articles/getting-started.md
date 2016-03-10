@@ -4,7 +4,7 @@ title:  Getting Started Guide
 getting_started: true
 ---
 
-#Getting Started Guide
+# Getting Started Guide
 
 Welcome to Vero! We're thrilled you've chosen to send amazing marketing campaigns with us.
 
