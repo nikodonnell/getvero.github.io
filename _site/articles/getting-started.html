@@ -113,15 +113,16 @@
   <li><strong>Offline</strong> - Data is still captured and emails are still ‘triggered’, just not sent, so you can see them in the logs.</li>
 </ul>
 
-<p>By default, your Sandbox project is set to <strong>offline</strong> as denoted by the gray color of the project in the sidebar. We recommend using the Sandbox project with a testing server or test environment, if you have one. We also recommend setting your Production project to <strong>Test</strong> (orange) when you initially start sending live data to Vero, just to be safe.</p>
+<p>By default, your project is set to <strong>Test</strong> as denoted by the orange color of the project in the sidebar. We recommend keeping your project in <strong>Test</strong> mode while you get setup and until you want to send live emails to your customers. Once you have finished setting up your project by <strong><a href="#4">Tracking real time data</a></strong> and <strong><a href="#5">Importing your existing data</a></strong> you can flip your project to <strong>Live</strong> mode to start sending real emails to your customers.</p>
 
-<p><em>Note</em> that you can clone campaigns between projects by selecting <strong><a href="/articles/cloning-an-email.html">Clone</a></strong> in the dropdown next to a saved campaign, however customer data is isolated to each project.</p>
+<p><em>Note: You can have as many projects as you like, for example, you could have a ‘Sandbox’ project (set to ‘Test’ mode) linked to your test environment and a ‘Production’ project (set to ‘Live’ mode) linked to your live environment</em></p>
+
+<p><em>Note: You can also clone campaigns between projects by selecting ‘<a href="/articles/cloning-an-email.html">Clone</a>’ in the dropdown next to a saved campaign, however customer data is isolated to each project.</em></p>
 
 <h3 id="to-do">To Do:</h3>
 
 <ol>
-  <li>Setup your test server environment to use Sandbox project in Vero (by <a href="https://app.getvero.com/settings/project">grabbing your API Keys</a> when logged into your <strong>Sandbox</strong> project). Ensure this project is in <strong>Offline</strong> mode.</li>
-  <li>Ensure you set your Production project to <strong>Test</strong> when you initially begin tracking data in  your production environment, to be on the safe side.</li>
+  <li>Ensure your project is in <strong>Test</strong> mode while you get set up.</li>
 </ol>
 
 <h2 id="2">Add multiple team logins</h2>
@@ -130,7 +131,7 @@
 
 <p>Additional users can be invited to your Vero account by visiting the <em><a href="https://app.getvero.com/account/team">Account &gt; Team</a></em> page. Team members are sent an invite email and invited to create their own password (you will see Invite Pending next to any user that has not yet accepted their invite and created a password).</p>
 
-<p>For each team member, access can be granted to each individual project within Vero. For example, a user may have access to your Sandbox project but not your Production project.</p>
+<p>For each team member, access can be granted to each individual project within Vero.</p>
 
 <p>There are three levels of account access in Vero:</p>
 
@@ -154,7 +155,7 @@
 
 <p>One of our success engineers will inform you about our plans for allocating dedicated IPs and warming up those IPs if your setup and scale demand this, otherwise you can assume all is in order and handled by Vero’s engineers – we do the hard work for you. Feel free to ask questions at any time.</p>
 
-<p>You do however need to setup domain authentication. To do this, ensure you add a domain to your primary project (typically the default Production project) in Vero. Have an administrator head to <em><a href="https://app.getvero.com/settings/project">Settings &gt; Project details</a></em> and add the domain you will be sending from. From there, visit the <em><a href="https://app.getvero.com/settings/providers">Settings &gt; Email Delivery</a></em> menu and select <strong>Request DNS Records</strong>. You will then need to add the required DNS records to your sending domain.</p>
+<p>You do however need to setup domain authentication. To do this, ensure you add a domain to the appopraite project in Vero. Have an administrator head to <em><a href="https://app.getvero.com/settings/project">Settings &gt; Project details</a></em> and add the domain you will be sending from. From there, visit the <em><a href="https://app.getvero.com/settings/providers">Settings &gt; Email Delivery</a></em> menu and select <strong>Request DNS Records</strong>. You will then need to add the required DNS records to your sending domain.</p>
 
 <p>You can <a href="/articles/how-to-setup-my-domain-signing-and-remove-via-getveromail-com-from-your-emails.html">read a detailed guide to domain authentication in Vero</a>.</p>
 
@@ -163,7 +164,7 @@
 <h3 id="to-do-2">To Do:</h3>
 
 <ol>
-  <li>Have a Vero administrator add the domain you want to send your emails from under <em><a href="https://app.getvero.com/settings/project">Settings &gt; Project details</a></em> in your primary production project. Domain setup is per project so you want to configure your live setup in your ultimate Production project.</li>
+  <li>Have a Vero administrator add the domain you want to send your emails from under <em><a href="https://app.getvero.com/settings/project">Settings &gt; Project details</a></em>. Domain setup is per project so make sure you configure your Domain in the correct project.</li>
   <li>Have a Vero administrator request the DNS records in that same project, found <em><a href="https://app.getvero.com/settings/providers">Settings &gt; Email Delivery</a></em>, but selecting Request DNS Records.</li>
   <li>Add the DNS records to your domain and return to Vero a few hours later and select Verify DNS Records on the <em><a href="https://app.getvero.com/settings/providers">Settings &gt; Email Delivery</a></em> page. Each of the records will go green once successfully verified, and emails will now be sent via your domain.</li>
   <li>In order to increase deliverability, it is generally a good practice to <a href="#5">import a CSV</a> that has a tags column with the value <code class="highlighter-rouge">unsubscribed</code> with any previous unsubscribed customers’ addresses before sending.</li>
