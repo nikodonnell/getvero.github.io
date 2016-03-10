@@ -37,7 +37,7 @@ By default, your project is set to **Test** as denoted by the orange color of th
 
 *Note: You can also clone campaigns between projects by selecting '[Clone](/articles/cloning-an-email.html)' in the dropdown next to a saved campaign, however customer data is isolated to each project.*
 
-###To Do:
+### To Do:
 
 1. Ensure your project is in **Test** mode while you get set up. 
 
@@ -56,7 +56,7 @@ There are three levels of account access in Vero:
 - **View / Edit** – users with this access level can create, delete and otherwise manage all of your campaigns. They cannot manage your subscription or add other team members.
 - **View only** – users with this access level can view campaigns and campaign results, but cannot make changes.
 
-###To Do:
+### To Do:
 
 1. Have a Vero administrator add new team members to Vero under the *[Account > Team menu](https://app.getvero.com/account/team)* area.
 
@@ -75,7 +75,7 @@ You can [read a detailed guide to domain authentication in Vero](/articles/how-t
 
 Note that you may also add your own Mailgun, Sendgrid, Mandrill or Dyn account for email delivery. Vero will then send emails out through one of these accounts. This is generally done by customers that have a long history with one of these providers or a shared infrastructure or other reason for doing so.
 
-###To Do:
+### To Do:
 
 1. Have a Vero administrator add the domain you want to send your emails from under *[Settings > Project details](https://app.getvero.com/settings/project)*. Domain setup is per project so make sure you configure your Domain in the correct project.
 2. Have a Vero administrator request the DNS records in that same project, found *[Settings > Email Delivery](https://app.getvero.com/settings/providers)*, but selecting Request DNS Records.
@@ -95,7 +95,7 @@ Many people also track extra customer properties or events using our backend API
 
 **Note that the key to using our API is to identify customers using a unique identifier or ID (interchangeable terminology in the world of Vero). If you do not have a unique ID per customer, we recommend using the email address as the ID itself.**
 
-###To Do:
+### To Do:
 
 1. [Install the Vero Javascript library](https://www.getvero.com/api/javascript/) on your website, including making a Vero identify call whenever a customer signs up, fills out a form or otherwise gives you permission to email them.
 2. Determine whether you want to [automatically track pageviews](/articles/track-pageviews-with-veros-api.html) for customers that have been identified (by default, Vero does not).
@@ -116,7 +116,7 @@ You can also import past data on events – i.e. data on what each `customer`/`s
 
 We accept manual CSV imports (via the UI) up to 50,000 rows. To import larger datasets, please contact our support and we’ll import them directly, for speed.
 
-###To Do:
+### To Do:
 
 1. Import any customers and their properties via CSV to backfill Vero and prime your segments. You can do this via the **[Import Customers](https://app.getvero.com/customers/csv/import)** page or by contacting support for larger data sets.
 2. Import any customer **activity data** via CSV to backfill Vero and prime your segments. You can do this via the **[Import Events](https://app.getvero.com/logs/csv/import)** page.
@@ -139,7 +139,7 @@ When you import templates, Vero will parse these and give you warning messages r
 
 If you have questions setting up your templates or want help importing them from other email platforms, please get in touch with our support team – they all have experience coding and developing HTML email templates and can help you mark up your templates for Vero correctly and get going faster.
 
-###To Do:
+### To Do:
 
 1. Export your custom templates from another email platform or as created by your design team.
 2. Mark up any elements you want to be editable with the `vero-editable` CSS class, as outlined in our [help document on template management](/articles/using-html-templates-in-vero.html).

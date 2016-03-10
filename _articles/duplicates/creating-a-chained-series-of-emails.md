@@ -1,6 +1,6 @@
 
   
-##Creating a chained series of emails
+## Creating a chained series of emails
     
 Vero campaigns are based on 'behaviour'. As described in our 
 [Getting Started](https://veroapp.zendesk.com/entries/21931816-installing-vero) guide, this paradigm stems from tracking what your users have or haven't done on your website.

@@ -4,19 +4,19 @@ title:  Creating a HTML email subscribe form
 categories: configuration
 ---
 
-#Creating a HTML email subscribe form
+# Creating a HTML email subscribe form
 
 If you are coming from an email service provider such as Mailchimp, you will be familiar with the concept of HTML-based email forms.
 
 These forms allow you to collect a subscriber or customer's email address, name and other (custom) details easily using a little HTML on your website.
 
-##Vero subscibe forms
+## Vero subscibe forms
 
 Vero also supports email forms, with one key difference. Traditionally, when a contact fills out an email form they are added to a list. In Vero, rather than being added to a list, a customer that fills out a web form triggers an event. That event could be as simple as `Subscribes to blog`.
 
 You can then use this event to create a segment or automate a behavioral email: so you get twice the power from a single web form!
 
-##Step 1. Create a form
+## Step 1. Create a form
 
 To generate a form, head to *Froms* and you'll be shown Vero's point-and-click interface to create a form:
 
@@ -30,7 +30,7 @@ The final part of our form builder allows you to define what your customers see 
 
 ![{{ site.data.screenshots.vero.subscribe-form-event-trigger['title'] }}]({{ site.data.screenshots.vero.subscribe-form-event-trigger['image'] }})
 
-##Step 2: Copy and paste your new form
+## Step 2: Copy and paste your new form
 
 Select 'Generate form' to generate the HTML for your new form:
 

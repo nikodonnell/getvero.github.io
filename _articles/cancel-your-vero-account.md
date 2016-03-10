@@ -4,7 +4,7 @@ title: Cancel your Vero account
 categories: billing
 ---
 
-#Cancel your Vero account
+# Cancel your Vero account
 
 To cancel your Vero account, email [support@getvero.com](mailto:support@getvero.com).
 

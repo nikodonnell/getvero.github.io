@@ -21,7 +21,7 @@ We wrote this guide to help you out moving from any of the traditional email pla
 
 There are just three steps from sending in your old provider to sending in Vero.
 
-##1. Migrating your subscriber list(s)
+## 1. Migrating your subscriber list(s)
 
 No matter what traditional email tools you use, you are going to have a list (or multiple lists) of customers to bring into Vero.
 
@@ -55,7 +55,7 @@ Simply repeat this process for every list in your current email provider.
 
 **Note** that if your list is more than 50,000 people long, please [email us]({{site.data.links.email_us}})) and we'll help you get it done directly in our backend.
 
-##2. Migrating your templates
+## 2. Migrating your templates
 
 Migrating your templates to Vero differs in detail from platform to platform, so in this guide we'll outline the fundamentals. We can also help answer any migration questions [via email](site.data.links.email_us).
 
@@ -73,7 +73,7 @@ Get a complete run down of how templates work in Vero with our [help guide]({{si
 
 **Note:** we do recommend a designer with HTML experience brings your templates across. This will mean you get them right from the word go and that they are optimised for use with Vero, saving you time later.
 
-##3. Check your email domain signing
+## 3. Check your email domain signing
 
 This final step is optional, and depends on your current email provider setup. 
 

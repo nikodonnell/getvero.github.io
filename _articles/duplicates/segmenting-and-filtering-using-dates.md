@@ -1,6 +1,6 @@
 
   
-##Segmenting and filtering using dates
+## Segmenting and filtering using dates
     
 When you are create a 
 [Segment](https://www.getvero.com/segments) with Vero and want to segment based on dates, for example:

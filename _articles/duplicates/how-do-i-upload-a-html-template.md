@@ -1,6 +1,6 @@
 
   
-##How do I upload a HTML template?
+## How do I upload a HTML template?
     
 The following walks through uploading a HTML template.
 A few notes:
@@ -14,14 +14,14 @@ A few notes:
 	
 *Read our guide on 
 [making your templates editable](http://public.getvero.com/knowledge-base#/questions/50512-Working-with-HTML-templates) within Vero's GUI interface.
-##Uploading the template
+## Uploading the template
 Visit the "HTML Templates" option in the navigation bar.
 Select "Upload HTML Template" at the top right:
 ![](https://s3.amazonaws.com/helpjuice_production/uploads/upload/image/742/1865/Screen_Shot_2013-09-05_at_2.52.28_PM.png)
 Select your .html file.
 Click "Upload template".
 Name your file.
-##Using your new template
+## Using your new template
 Create or edit a campaign.
 When editing the content and "Select a template":
 ![](https://s3.amazonaws.com/helpjuice_production/uploads/upload/image/742/1866/Screen_Shot_2013-09-05_at_2.54.42_PM.png)

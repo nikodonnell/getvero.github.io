@@ -4,7 +4,7 @@ title:  Viewing your list of customers in a segment
 categories: customer data
 ---
 
-#Can I view the list of customers in a segment?
+# Can I view the list of customers in a segment?
 
 You can view your list of customers in a given segment by going to the Segments page and selecting *Edit > View Users* next to any of your segments.
 

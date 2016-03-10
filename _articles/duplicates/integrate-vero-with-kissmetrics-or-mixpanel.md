@@ -1,4 +1,4 @@
-#Can I integrate Vero with KISSmetrics or Mixpanel
+# Can I integrate Vero with KISSmetrics or Mixpanel
 
 The libraries mentioned here work well, but many customers now choose to use Segment which allows you to install one library and track data to multiple tools, including Vero, KISSmetrics and Mixpanel.
 

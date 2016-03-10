@@ -12,7 +12,7 @@ As a quick example, you might create a segment called *Paying customers*, includ
 
 Once you have created a segment, you are able to use your segment to send newsletters and as conditions in behavioral campaigns. You can combine segments to get even more targeted.
 
-##Segmentation conditions
+## Segmentation conditions
 
 In Vero, there are four separate types of data stored about each of your customers. You can track and store customer `properties`, `tags` and `events`. Vero also automatically tracks customers' interactions with emails, `opens`, `clicks` and so on.
 

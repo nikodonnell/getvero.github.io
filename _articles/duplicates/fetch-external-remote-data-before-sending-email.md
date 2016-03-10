@@ -1,9 +1,9 @@
 
   
-##Fetch external (/remote) data before sending email
+## Fetch external (/remote) data before sending email
     
 You can fetch remote data from your webserver before each and every email is sent out, regardless of whether it is part of an automated or newsletter campaign.
-##Fetching a HTML snippet
+## Fetching a HTML snippet
 This method allows you to pass data stored in Vero back to your server so that you can manipulate it and send back some custom HTML. The custom HTML that is returned is 
 **inserted into the body of your email exactly where you place the {% fetch_html %} templating tag.**
 ****
@@ -15,7 +15,7 @@ as it is returned.
 Here is how you might insert this code into the body of your email: 
 ![](https://s3.amazonaws.com/helpjuice_production/uploads/upload/image/742/3321/Screen_Shot_2014-01-28_at_12.55.22_pm.png)
 This would then be replaced with the correct HTML upon sending.
-##Fetching JSON data
+## Fetching JSON data
 In many instances, fetching a JSON hash is more useful. This 
 **can**
  be more powerful as you can return a large, nested, complex JSON array for manipulation by marketing inside the Vero interface.
@@ -37,7 +37,7 @@ You can access the nested array data like this:
 {{external.products.product_1}}
 The Liquid syntax guide has all the details on working with arrays: 
 [https://github.com/Shopify/liquid/wiki/Liquid-for-...](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-##Things to note
+## Things to note
 *When previewing campaigns, we will use an example customer that has triggered the base event of your automated campaign and the related dummy data so you can see the 
 **full output**
 , as a customer would see it.

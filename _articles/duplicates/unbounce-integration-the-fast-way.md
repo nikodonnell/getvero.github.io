@@ -1,8 +1,8 @@
 
   
-##Unbounce integration (the fast way)
+## Unbounce integration (the fast way)
     
-##What is Unbounce?
+## What is Unbounce?
  
 There are two ways to install Vero with Unbounce. This guide uses Unbounce's webhook feature. It is the fastest and cleanest method. 
 [The second method uses our Javascript API](http://www.getvero.com/knowledge-base#/questions/71147-Unbounce-integration-(using-Javascript---the-complex-way)). It is a little more complex and should be used only if you need to track users across Unbounce landing pages 
@@ -35,7 +35,7 @@ Downloads eBook/Whitepaper/Checklist, Completes lead generation form XYZ, Expres
  
      Once done, click 'Generate Code'.
  
-##Step 2: Add the Unbounce webhook
+## Step 2: Add the Unbounce webhook
        In a new window, login to your Unbounce account and, after logging in, click on the landing page you are planning to integrate with Vero.
        On the landing page dashboard, scroll down and on the right side you will see a section called "Leads & Form Integrations". Click "WebHook: POST to URL":
  
@@ -67,7 +67,7 @@ Once it’s entered, Unbounce will verify the URL and display you a success mess
 ![](https://s3.amazonaws.com/helpjuice_production/uploads/upload/image/742/907/ss7.png)
  
 Click 'Configure Field Mapping' to configure the parameters recorded in Vero.
-###**Step 3: Configure your field mappings**
+### **Step 3: Configure your field mappings**
        In this step you can map the customer attributes from your Unbounce form (such as First Name, Last Name, etc.) against your customer profiles in Vero.
  
 ![](https://s3.amazonaws.com/helpjuice_production/uploads/upload/image/742/908/Screen_Shot_2013-02-18_at_10.12.58_AM.png)

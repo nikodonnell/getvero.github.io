@@ -1,10 +1,10 @@
 
   
-##How do I send a one-off email / newsletter to my customers? (BETA)
+## How do I send a one-off email / newsletter to my customers? (BETA)
     
 You can now send your customers one-off emails (also known as newsletters or blast emails) using our newsletter feature.
 This is currently in beta so please get in touch to use this feature.
-##How to send a newsletter
+## How to send a newsletter
 You can send a newsletter to any segment or combination of segments. 
 This means you should first setup some relevant segments. To learn more, refer to our article on 
 [how to create a segment](http://www.getvero.com/knowledge-base#/questions/53597-How-do-I-create-a-segment-(BETA)).

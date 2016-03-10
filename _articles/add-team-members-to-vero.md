@@ -5,7 +5,7 @@ categories: configuration
 getting_started: true
 ---
 
-#Add team members to Vero
+# Add team members to Vero
 
 Administrator users can invite and remove team members to a Vero Account.
 
@@ -22,7 +22,7 @@ Once invited, administrators can grant each team member access to each different
 
 An invited user will receive an email from Vero referencing your account and asking the new user to set a password.
 
-##Revoking Access
+## Revoking Access
 
 {% capture image2 %}{{site.data.screenshots.vero.add-team-members.remove-team-member.image}}{% endcapture %}
 {% capture title2 %}{{site.data.screenshots.vero.add-team-members.remove-team-member.title}}{% endcapture %}

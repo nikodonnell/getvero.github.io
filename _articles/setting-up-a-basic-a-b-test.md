@@ -52,7 +52,7 @@ Results are reported individually for each variation. You to see the effectivene
 
 -----
 
-##Notes:##
+## Notes:
 
 *When running an A/B test on a Behavioral or Transactional email campaign that has more than one email (a series campaign), A/B tests run across the entire series. The split is decided with the first email in the series and the remaining emails follow suit.*
 <br><br>

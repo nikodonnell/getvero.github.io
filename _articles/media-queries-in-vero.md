@@ -24,7 +24,7 @@ Vero provides support for media queries in HTML templates, however they must be 
     </style>
     
 
-##Background
+## Background
 
 Acheiving visual consistency across email clients is an ongoing challenge for marketers. It can, however, be significantly improved by scoping styles to the exact element they apply to. This is also known as element-level CSS specificity. Unfortunately, this approach does make managing your styles difficult and ultimately defeats the purpose of CSS itself. 
 
@@ -34,6 +34,6 @@ This approach makes marketer's lives easier as they can style using CSS classes,
 
 In Vero, inlining CSS is included in our pre-mail processes, occurring automatically betweeen the time you click schedule and the time an email leaves our mail servers.
 
-##Ensuring your media queries are not inlined
+## Ensuring your media queries are not inlined
 
 Naturally, if your media queries are stripped out of the header styles, they will no longer work. To avoid this happening, you must wrap all media queries in a separate `<style>` element containing the special tag `data-premailer='ignore'`.

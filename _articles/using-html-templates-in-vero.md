@@ -72,5 +72,5 @@ If you add or remove a `vero-editable` region, Vero won't be able to correctly m
 
 By clicking on the name of each campaign, you can manually review Vero's attempt to merge in your content updates. Once happy you can select **Save and exit**. Until you re-save this campaign, it will use the old version of your template, to avoid ugly or incomplete emails going to your customers. Once saved, the new version will go live.
 
-##Media queries
+## Media queries
 In Vero, media queries are honoured through the inclusion of the `data-premailer='ignore'` tag within your CSS `<style>` element. Anything contained within the `<style data-premailer="ignore">` element will NOT be automatically compiled prior to your email being sent. Further information on [media queries in Vero is available here](/articles/media-queries-in-vero.html).

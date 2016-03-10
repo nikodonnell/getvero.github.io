@@ -1,6 +1,6 @@
 
   
-##How do I export my subscribers?
+## How do I export my subscribers?
     
 To export your subscribers you should visit the 'Customers' page: 
 [https://app.getvero.com/people](https://app.getvero.com/people)

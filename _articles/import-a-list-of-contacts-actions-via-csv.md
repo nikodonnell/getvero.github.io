@@ -5,7 +5,7 @@ categories: event data
 getting_started: true
 ---
 
-#Import a list of the past events contacts' have triggered via CSV
+# Import a list of the past events contacts' have triggered via CSV
 
 Vero tracks not only your contacts but also the **events** they perform in your application. To learn more about events, read [What is an Event?](http://app.getvero.com/templates).
 
