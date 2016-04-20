@@ -36,7 +36,7 @@ Once this is done, visit *Settings > Email Delivery* and select *Request DNS rec
 
 To add the DNS records to your domain, you'll need to look at the how to for your specific domain host. Googling "Setup DNS records" is typically the fastest way to find your provider's specific instructions. If you need a hand, just [email us]({{site.data.links.email_us}}).
 
-### Settings up a custom CNAME
+### Setting up a custom CNAME
 
 By default, we provide a CNAME record for the subdomain `email.yourdomain.com`. This CNAME is used to track links. 
 
