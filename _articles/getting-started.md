@@ -10,7 +10,7 @@ Welcome to Vero! We're thrilled you've chosen to send amazing marketing campaign
 
 This guide is your step by step guide to getting from zero to email marketing hero.
 
-Use this guide for: 
+Use this guide for:
 
 - **[Setting up your project](#1)**
 - **[Add multiple team logins](#2)**
@@ -39,7 +39,7 @@ By default, your project is set to **Test** as denoted by the orange color of th
 
 ### To Do:
 
-1. Ensure your project is in **Test** mode while you get set up. 
+1. Ensure your project is in **Test** mode while you get set up.
 
 
 <h2 id="2">Add multiple team logins</h2>
@@ -48,7 +48,7 @@ The creator of a Vero account is the primary administrator.
 
 Additional users can be invited to your Vero account by visiting the *[Account > Team](https://app.getvero.com/account/team)* page. Team members are sent an invite email and invited to create their own password (you will see Invite Pending next to any user that has not yet accepted their invite and created a password).
 
-For each team member, access can be granted to each individual project within Vero. 
+For each team member, access can be granted to each individual project within Vero.
 
 There are three levels of account access in Vero:
 
@@ -85,7 +85,7 @@ Note that you may also add your own Mailgun, Sendgrid, Mandrill or Dyn account f
 
 <h2 id="4">Tracking real time data</h2>
 
-One of the key elements that gives Vero its power is the ability to track data about your customers and what they are doing in your application or website, **in real time**. Traditional email tools typically synchronise with databases or stataic lists at set intervals. Tracking customer properties and customer events with Vero is where you’ll see the biggest wins.
+One of the key elements that gives Vero its power is the ability to track data about your customers and what they are doing in your application or website, **in real time**. Traditional email tools typically synchronise with databases or static lists at set intervals. Tracking customer properties and customer events with Vero is where you’ll see the biggest wins.
 
 To get the most out of Vero, **we recommend integrating with our API**. Most customers install our Javascript library on their website. This automatically manages cookie tracking and other benefits such as automatically managing API call failures.
 
@@ -133,7 +133,7 @@ As a helpful summary, here are the key points to understand about Vero’s templ
 - You can find your templates under *[Settings > HTML Templates](https://app.getvero.com/templates)*.
 - When your designer creates a template they should markup anchor tags, images, div and table cell blocks and headings with the HTML CSS class `vero-editable` to make them editable.
 - Once a template is uploaded, you can then select this template when creating any type of campaign in Vero (Newsletters, Behavioral and Transactional campaigns).
-- You can use Vero’s WYSIWYG point-and-click template editing interface to ememnd the content specificly for that campaign.
+- You can use Vero’s WYSIWYG point-and-click template editing interface to amend the content specificly for that campaign.
 
 When you import templates, Vero will parse these and give you warning messages regarding errors you may have made that can cause conflicts, ensuring everything is set for your marketing team to use your templates seamlessly.
 
