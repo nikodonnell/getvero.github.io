@@ -7,7 +7,7 @@ getting_started: true
 
 # Using HTML templates in Vero
 
-Vero gives you the ability to bring your own template. Vero supports media queries and fully responsive HTML templates. 
+Vero gives you the ability to bring your own template. Vero supports media queries and fully responsive HTML templates.
 
 To use a HTML template in a Vero campaign, upload your template to your Vero template library. When creating a newsletter, behavioral or transactional campaign, you can select a template to use from those that you have previously uploaded to your template gallery.
 
@@ -64,7 +64,7 @@ When on the *Templates* menu, you can tell whether a template is being used by a
 
 You can re-upload or edit your templates at any time. To do so, just select their name or select **Edit** from the menu next to the template you want to update.
 
-As an example, if you have a template with a header and a footer and a singule `vero-editable` block in the middle, Vero will store any changes you make to this `vero-editable` section, per campaign. If you update the header, Vero will automatically update all of the child campaigns, merging in the updates underneath your own changes to the `vero-editable` section.
+As an example, if you have a template with a header and a footer and a single `vero-editable` block in the middle, Vero will store any changes you make to this `vero-editable` section, per campaign. If you update the header, Vero will automatically update all of the child campaigns, merging in the updates underneath your own changes to the `vero-editable` section.
 
 ![{{site.data.screenshots.vero.templates.unmerged-changes.title}}]({{site.data.screenshots.vero.templates.unmerged-changes.image}})
 
