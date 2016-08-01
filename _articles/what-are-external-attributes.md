@@ -6,40 +6,40 @@ categories: email design
 
 # What are External Attributes?
 
-Vero’s External Attributes feature allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
+Vero's External Attributes feature allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
 
-It gives you the ability to access data that hasn’t been pushed into Vero, and use that data in your email content, subject lines and dynamic attachments.
+It gives you the ability to access data that hasn't been pushed into Vero, and use that data in your email content, subject lines and dynamic attachments.
 
 Example use cases:
 
-- You’d like to send off the top 5 new products in your store that day.
+- You'd like to send off the top 5 new products in your store that day.
 - Pull in extra information about your users
-- You’d like to show relevant items based on the current stock.
-- You’d like to send customised content for each demographic (i.e. products based on location or even different languages)
+- You'd like to show relevant items based on the current stock.
+- You'd like to send customised content for each demographic (i.e. products based on location or even different languages)
 
 Vero can handle two types of data responses:
 
 ## Returning HTML
 
-To do this you use a custom filter we’ve built using the [Liquid tempting language]({{ site.data.links[‘liquid_docs’]}}).
+To do this you use a custom filter we've built using the [Liquid tempting language]({{ site.data.links['liquid_docs']}}).
 
 This method allows you to pass data stored in Vero back to your server so that you can manipulate it and send back some custom HTML. The custom HTML that is returned is inserted into the body of your email exactly where you place the following tag:
 
 {% raw %}
-	{% fetch_html ‘https://www.domain.com/endpoint' %}
+	{% fetch_html 'https://www.domain.com/endpoint' %}
 {% endraw %}
 
 In this example below, we pass back both a customer-level attribute and an event-level attribute. This data can then be used by your server!
 
 {% raw %}
-	{% fetch_html ‘https://www.domain.com?param={{user.id}}&param2={{event.number_of_widgets}}' %}
+	{% fetch_html 'https://www.domain.com?param={{user.id}}&param2={{event.number_of_widgets}}' %}
 {% endraw %}
 
 You should of course replace the domain in this example with whatever URL you prefer. This URL should return raw HTML that will be dumped into the body of your HTML campaign **exactly** as it is returned.
 
 Here is how you might insert this code into the body of your email:
 
-![{{ site.data.screenshots.vero.fetch-html[‘title’] }}]({{ site.data.screenshots.vero.fetch-html[‘image’] }})
+![{{ site.data.screenshots.vero.fetch-html['title'] }}]({{ site.data.screenshots.vero.fetch-html['image'] }})
 
 This would then be replaced with the correct HTML upon sending.
 
@@ -53,7 +53,7 @@ There are two ways of accessing external JSON data.
 
 If you have External Attributes enabled for your account, you will find an external attributes input field beneath the content section of your campaign builder:
 
-![{{ site.data.screenshots.vero.external-attributes[‘title’] }}]({{ site.data.screenshots.vero.external-attributes[‘image’] }})
+![{{ site.data.screenshots.vero.external-attributes['title'] }}]({{ site.data.screenshots.vero.external-attributes['image'] }})
 
 Place the API endpoint into the External Attributes section. For example, if the endpoint was:
 
@@ -61,18 +61,18 @@ Place the API endpoint into the External Attributes section. For example, if the
 
 The contents of the endpoint would show:
 
-![{{ site.data.screenshots.vero.json-data[‘title’] }}]({{ site.data.screenshots.vero.json-data[‘image’] }})
+![{{ site.data.screenshots.vero.json-data['title'] }}]({{ site.data.screenshots.vero.json-data['image'] }})
 
 Then, when you place {{external.title}} inside of your content (or template as well), the result in the preview would show the title pulled in like so:
 
-![{{ site.data.screenshots.vero.external-attributes-preview[‘title’] }}]({{ site.data.screenshots.vero.external-attributes-preview[‘image’] }})
+![{{ site.data.screenshots.vero.external-attributes-preview['title'] }}]({{ site.data.screenshots.vero.external-attributes-preview['image'] }})
 
 ### Fetch JSON liquid filter
 
 The fetch_json liquid filter works in a similar way as the fetch_html filter above, but instead expects a JSON response.  
 
 {% raw %}
-	{% fetch_json product = ‘https://www.domain.com/products/{{event.product_id’}} %}
+	{% fetch_json product = 'https://www.domain.com/products/{{event.product_id'}} %}
 {% endraw %}
 
 After adding this to your template or email body you can then access the returned data using the `product` liquid variable. e.g:
