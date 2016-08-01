@@ -39,7 +39,7 @@ You should of course replace the domain in this example with whatever URL you pr
 
 Here is how you might insert this code into the body of your email:
 
-![{{ site.data.screenshots.vero.fetch-html[‘title’] }}]({{ site.data.screenshots.vero.fetch-html[‘image’] }})
+![{{ site.data.screenshots.vero.fetch-html['title'] }}]({{ site.data.screenshots.vero.fetch-html['image'] }})
 
 This would then be replaced with the correct HTML upon sending.
 
@@ -53,7 +53,7 @@ There are two ways of accessing external JSON data.
 
 If you have External Attributes enabled for your account, you will find an external attributes input field beneath the content section of your campaign builder:
 
-![{{ site.data.screenshots.vero.external-attributes[‘title’] }}]({{ site.data.screenshots.vero.external-attributes[‘image’] }})
+![{{ site.data.screenshots.vero.external-attributes['title'] }}]({{ site.data.screenshots.vero.external-attributes['image'] }})
 
 Place the API endpoint into the External Attributes section. For example, if the endpoint was:
 
@@ -61,11 +61,11 @@ Place the API endpoint into the External Attributes section. For example, if the
 
 The contents of the endpoint would show:
 
-![{{ site.data.screenshots.vero.json-data[‘title’] }}]({{ site.data.screenshots.vero.json-data[‘image’] }})
+![{{ site.data.screenshots.vero.json-data['title'] }}]({{ site.data.screenshots.vero.json-data['image'] }})
 
 Then, when you place {{external.title}} inside of your content (or template as well), the result in the preview would show the title pulled in like so:
 
-![{{ site.data.screenshots.vero.external-attributes-preview[‘title’] }}]({{ site.data.screenshots.vero.external-attributes-preview[‘image’] }})
+![{{ site.data.screenshots.vero.external-attributes-preview['title'] }}]({{ site.data.screenshots.vero.external-attributes-preview['image'] }})
 
 ### Fetch JSON liquid filter
 
