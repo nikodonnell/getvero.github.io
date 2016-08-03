@@ -8,9 +8,15 @@ email_us: mailto:support@getvero.com
 vero_api: https://www.getvero.com/api
 developers: http://developers.getvero.com
 getvero: https://www.getvero.com/
+mail-tester: https://mail-tester.com
+250ok: https://250ok.com
+return-path: https://returnpath.com
 app_settings_projects: https://app.getvero.com/settings/project
 app_logs: https://app.getvero.com/logs
 app_labs: https://app.getvero.com/settings/labs
+app:
+  settings:
+    email-delivery: https://beta.getvero.com/settings/providers
 support: https://support.getvero.com/
 terms-of-service: https://www.getvero.com/terms-of-service
 mailgun: https://www.mailgun.com

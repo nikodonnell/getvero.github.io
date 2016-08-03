@@ -2,6 +2,7 @@
 layout: articles
 title:  Getting Started Guide
 getting_started: true
+hide: true
 ---
 
 # Getting Started Guide
