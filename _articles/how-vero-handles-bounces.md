@@ -1,10 +1,10 @@
 ---
 layout: articles
-title:  Automatically unsubscribing emails that have bounced
+title:  How Vero handles bounces
 categories: deliverability
 ---
 
-# Automatically unsubscribing emails that have bounced
+# How Vero handles bounces
 
 Vero automatically handles the subscription status of customers whose emails bounce.
 
