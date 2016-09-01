@@ -42,3 +42,12 @@ algolia:
 gems:
   - algoliasearch-jekyll
   - jekyll-coffeescript
+
+defaults:
+  -
+    scope:
+        path: "articles"
+        type: "articles"
+    values:
+        layout: "articles"
+        categories: "campaigns"
