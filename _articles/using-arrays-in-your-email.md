@@ -6,7 +6,7 @@ categories:
 layout: articles
 ---
 
-# Using arrays in your email
+# Using arrays in your EMAIL
     
 Vero allows you to refer to properties stored against a customer using the Liquid templating language, these are commonly referred to as merge tags:
 `{{ user.first_name }}`
