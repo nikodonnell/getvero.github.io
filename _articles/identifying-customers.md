@@ -6,7 +6,7 @@ categories:
 layout: articles
 ---
 
-#Identifying Customers
+# Identifying Customers
 
 Vero makes it easy to track your customers' lifecycle events. This could be signing up, viewing a product, adding a product to the shopping cart, using feature X, signing up for a paid subscription and so on.
 
