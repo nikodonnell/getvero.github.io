@@ -335,3 +335,13 @@ vero:
     variations:
       image: /assets/screenshots/vero.ab_test.variations.png
       title: A/B Test Variations
+  multi-languages:
+    open-multi-language-menu:
+      image: /assets/screenshots/vero.languages-1.png
+      title: Open the multi-languages menu in the header
+    add-a-language:
+      image: /assets/screenshots/vero.languages-2.png
+      title: Hit the add link in the sidebar to add a language
+    choose-a-language:
+      image: /assets/screenshots/vero.languages-3.png
+      title: Choose a language from the list
