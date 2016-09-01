@@ -1,7 +1,8 @@
 ---
+title: What is a project?
+categories:
+- configuration
 layout: articles
-title:  What is a project?
-categories: configuration
 getting_started: true
 ---
 

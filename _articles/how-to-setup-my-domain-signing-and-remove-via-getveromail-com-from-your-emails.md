@@ -1,9 +1,10 @@
---- 
-layout: articles    
-title:  Setup domain signing and remove 'via xyz.com' from your emails    
-categories: deliverability    
 ---
-    
+title: Setup domain signing and remove 'via xyz.com' from your emails
+categories:
+- deliverability
+layout: articles
+---
+
 # Setup domain signing and remove 'via xyz.com' from your emails
     
 By default, Vero will send your emails using a shared IP and domain configuration. We use a variety of domains and tiers to help ensure we get customers emails into inboxes. We work with [Mailgun]({{site.data.links.mailgun}}) to deliver your emails.   

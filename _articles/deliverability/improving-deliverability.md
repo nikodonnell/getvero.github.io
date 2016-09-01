@@ -1,8 +1,9 @@
 ---
+title: Improving your deliverability
+permalink: "/articles/:title"
+categories:
+- deliverability
 layout: articles
-title:  Improving your deliverability
-categories: deliverability
-permalink: /articles/:title
 ---
 
 # Improving your deliverability

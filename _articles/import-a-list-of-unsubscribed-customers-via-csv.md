@@ -1,9 +1,10 @@
 ---
-layout: articles
 title: Import a list of unsubscribed customers via CSV
-categories: customer data
+categories:
+- customer
+- data
+layout: articles
 ---
-
 
 # Import a list of unsubscribed customers via CSV
 

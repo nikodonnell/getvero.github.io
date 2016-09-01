@@ -1,7 +1,8 @@
 ---
-layout: articles
 title: Unbounce and Vero
-categories: integrations
+categories:
+- integrations
+layout: articles
 ---
 
 # Unbounce and Vero

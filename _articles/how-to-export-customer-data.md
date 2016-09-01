@@ -1,7 +1,9 @@
 ---
+title: How to export customer data?
+categories:
+- customer
+- data
 layout: articles
-title:  How to export customer data?
-categories: customer data
 ---
 
 # How to export customer data ?

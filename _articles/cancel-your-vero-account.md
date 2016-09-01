@@ -1,7 +1,8 @@
 ---
-layout: articles
 title: Cancel your Vero account
-categories: billing
+categories:
+- billing
+layout: articles
 ---
 
 # Cancel your Vero account

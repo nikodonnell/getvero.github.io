@@ -1,7 +1,8 @@
 ---
+title: Why has a specific email bounced?
+categories:
+- deliverability
 layout: articles
-title:  Why has a specific email bounced?
-categories: deliverability
 ---
 
 # Why has a specific email has bounced?

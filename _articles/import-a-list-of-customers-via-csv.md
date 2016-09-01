@@ -1,7 +1,9 @@
 ---
-layout: articles
 title: Import a list of customers via CSV
-categories: customer data
+categories:
+- customer
+- data
+layout: articles
 common_issues: true
 ---
 

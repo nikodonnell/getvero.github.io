@@ -1,6 +1,6 @@
 ---
+title: Help Doc Styleguide
 layout: articles
-title:  Help Doc Styleguide
 getting_started: false
 hide: true
 ---

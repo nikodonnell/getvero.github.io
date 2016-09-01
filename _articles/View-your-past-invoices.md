@@ -1,7 +1,8 @@
 ---
-layout: articles
 title: View your past invoices
-categories: billing
+categories:
+- billing
+layout: articles
 ---
 
 # View your past invoices

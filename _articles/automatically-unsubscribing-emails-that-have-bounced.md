@@ -1,7 +1,8 @@
 ---
+title: Automatically unsubscribing emails that have bounced
+categories:
+- deliverability
 layout: articles
-title:  Automatically unsubscribing emails that have bounced
-categories: deliverability
 ---
 
 # Automatically unsubscribing emails that have bounced

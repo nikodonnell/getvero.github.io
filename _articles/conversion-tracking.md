@@ -1,7 +1,8 @@
 ---
+title: Conversion tracking
+categories:
+- reporting
 layout: articles
-title:  Conversion tracking
-categories: reporting
 ---
 
 # Conversion tracking

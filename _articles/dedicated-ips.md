@@ -1,9 +1,10 @@
 ---
+title: Dedicated IPs
+categories:
+- deliverability
 layout: articles
-title:  Dedicated IPs
-categories: deliverability
 ---
-   
+
 # What is a Dedicated IP?
 
 A dedicated IP address is a unique internet address dedicated exclusively to a single hosting account. In the case of email this means we'll send your emails from a solo, dedicated server.

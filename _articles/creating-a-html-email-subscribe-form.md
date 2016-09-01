@@ -1,7 +1,8 @@
 ---
+title: Creating a HTML email subscribe form
+categories:
+- configuration
 layout: articles
-title:  Creating a HTML email subscribe form
-categories: configuration
 ---
 
 # Creating a HTML email subscribe form

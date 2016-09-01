@@ -1,9 +1,10 @@
 ---
+title: Setup double opt-ins
+categories:
+- configuration
 layout: articles
-title:  Setup double opt-ins
-categories: configuration
 ---
- 
+
 # Setup double opt-ins (deprecated)
     
 Vero no longer has built-in support for double opt-ins. In line with our [Terms of Service]({{site.data.links.terms-of-service}}), we require everyone to collect explicit permission from their customers before emailing them, and to comply with all relevant laws.

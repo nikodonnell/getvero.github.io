@@ -1,7 +1,9 @@
 ---
+title: What are tags?
+categories:
+- customer
+- data
 layout: articles
-title:  What are tags?
-categories: customer data
 ---
 
 # What are tags?
