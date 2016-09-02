@@ -1,6 +1,7 @@
 ---
 title: What is a newsletter campaign?
-category: campaigns
+categories:
+- campaigns
 layout: articles
 ---
 

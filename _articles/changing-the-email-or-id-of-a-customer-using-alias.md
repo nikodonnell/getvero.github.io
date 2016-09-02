@@ -1,6 +1,7 @@
 ---
 title: Changing the email or ID of a customer using 'alias'
-category: customer data
+categories:
+- customer data
 layout: articles
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Using advanced scope conditions
-category: campaigns
+categories:
+- campaigns
 layout: articles
 ---
 

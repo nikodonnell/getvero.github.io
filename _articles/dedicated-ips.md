@@ -1,6 +1,7 @@
 ---
 title: Dedicated IPs
-category: deliverability
+categories:
+- deliverability
 layout: articles
 ---
 

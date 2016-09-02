@@ -1,6 +1,7 @@
 ---
 title: Automatically unsubscribing emails that have bounced
-category: deliverability
+categories:
+- deliverability
 layout: articles
 ---
 

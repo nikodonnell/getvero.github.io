@@ -11,6 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: articles
+    type: articles
+  values:
+    layout: articles
 email: support@getvero.com
 description: 
 baseurl: ''

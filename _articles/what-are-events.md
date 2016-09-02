@@ -1,6 +1,7 @@
 ---
 title: What are events?
-category: event data
+categories:
+- event data
 layout: articles
 getting_started: true
 ---

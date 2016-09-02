@@ -1,6 +1,7 @@
 ---
 title: View your past invoices
-category: billing
+categories:
+- billing
 layout: articles
 ---
 

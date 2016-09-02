@@ -1,6 +1,7 @@
 ---
 title: Using media queries (@media) in Vero
-category: email design
+categories:
+- email design
 layout: articles
 getting_started: true
 ---

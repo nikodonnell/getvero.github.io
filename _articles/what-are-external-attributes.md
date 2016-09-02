@@ -1,6 +1,7 @@
 ---
 title: What are External Attributes?
-category: email design
+categories:
+- email design
 layout: articles
 ---
 
