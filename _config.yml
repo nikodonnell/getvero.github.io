@@ -56,8 +56,8 @@ gems:
 defaults:
   -
     scope:
-        path: ""
-        type: "articles"
+      path: ""
+      type: "articles"
     values:
-        layout: "articles"
-        category:
+      layout: "articles"
+      categories:
