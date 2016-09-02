@@ -41,9 +41,9 @@ layout: default
     </div>
 
     <div id="all">
-      {% assign groups = site.articles | group_by: "category" %}
+      {% assign groups = site.articles | group_by: "categories" %}
       {% for group in groups %}
-        {% assign name = group.name %}
+        {% assign name = group.name | split: '[' | join: '' | split: ']' | join: '' | split: '"' | join: '' | split: ',' | join: ' ' %}
         {% if name | size > 1 %}
           <h2 id="{{ name | downcase }}">{{ name | capitalize }}</h2>
           <ul class="article-list unstyled-list">
@@ -82,9 +82,9 @@ layout: default
     <div class="white-block hide-on-mobile" id="categories">
       <h3 class="gray-block-title">Categories</h3>
       <ul class="unstyled-list">
-        {% assign groups = site.articles | group_by: "category" | sort: "name" %}
+        {% assign groups = site.articles | group_by: "categories" | sort: "name" %}
         {% for group in groups %}
-          {% assign name = group.name %}
+          {% assign name = group.name | split: '[' | join: '' | split: ']' | join: '' | split: '"' | join: '' | split: ',' | join: ' ' %}
           {% if name | size > 1 %}
             <li><a href="#{{ name | downcase }}">{{ name | capitalize }}</a></li>
           {% endif %}
