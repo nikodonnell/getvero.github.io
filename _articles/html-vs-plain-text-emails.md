@@ -1,9 +1,9 @@
 ---
+title: HTML vs. Plain Text emails
+category: email design
 layout: articles
-title:  HTML vs. Plain Text emails
-categories: email design
 ---
-  
+
 # HTML vs. Plain Text emails
     
 When sending emails you can include both a HTML and plain text version of the content.

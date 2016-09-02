@@ -1,7 +1,7 @@
 ---
+title: Recurring newsletters
+category: campaigns
 layout: articles
-title:  Recurring newsletters
-categories: campaigns
 ---
 
 # Recurring newsletters

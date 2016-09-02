@@ -1,7 +1,7 @@
 ---
+title: Cloning an email
+category: campaigns
 layout: articles
-title:  Cloning an email
-categories: campaigns
 ---
 
 # Can I clone an email?

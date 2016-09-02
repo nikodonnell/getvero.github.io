@@ -1,7 +1,7 @@
 ---
-layout: articles
 title: Change your credit card?
-categories: billing
+category: billing
+layout: articles
 ---
 
 # Change your credit card?

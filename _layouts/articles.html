@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="help-semi-nav">
   <div class="content-wrapper">
    <a class="back-link" href="{{ site.baseurl }}/"><span class="fa fa-long-arrow-left"></span> Back to Help</a>
@@ -36,7 +37,7 @@ layout: default
         {% elsif page.common_issues == true %}
           {% assign items = site.articles | where: "common_issues", true %}
         {% else %}
-          {% assign items = site.articles | where: "categories", page.categories.first | sort: "name" %}
+          {% assign items = site.articles | where: "category", page.category %}
         {% endif %}
         <ul class="unstyled-list">
           {% for item in items %}

@@ -1,7 +1,7 @@
 ---
+title: How Vero handles bounces
+category: deliverability
 layout: articles
-title:  How Vero handles bounces
-categories: deliverability
 ---
 
 # How Vero handles bounces

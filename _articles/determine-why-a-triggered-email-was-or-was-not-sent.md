@@ -1,7 +1,7 @@
 ---
+title: Determine why a triggered email was or was not sent
+category: campaigns
 layout: articles
-title:  Determine why a triggered email was or was not sent
-categories: campaigns
 ---
 
 # Determine why a triggered email was or was not sent

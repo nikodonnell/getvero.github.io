@@ -1,7 +1,7 @@
 ---
+title: Understanding Scheduling and Timing
+category: campaigns
 layout: articles
-title:  "Understanding Scheduling and Timing"
-categories: campaigns
 ---
 
 # Understanding Scheduling and Timing

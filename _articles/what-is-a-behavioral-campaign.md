@@ -1,7 +1,7 @@
 ---
+title: What is a behavioral campaign ?
+category: campaigns
 layout: articles
-title:  "What is a behavioral campaign ?"
-categories: campaigns
 ---
 
 # What is a behavioral campaign?

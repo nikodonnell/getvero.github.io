@@ -41,9 +41,9 @@ layout: default
     </div>
 
     <div id="all">
-      {% assign groups = site.articles | group_by: "categories" %}
+      {% assign groups = site.articles | group_by: "category" %}
       {% for group in groups %}
-        {% assign name = group.name | split: '[' | join: '' | split: ']' | join: '' | split: '"' | join: '' | split: ',' | join: ' ' %}
+        {% assign name = group.name %}
         {% if name | size > 1 %}
           <h2 id="{{ name | downcase }}">{{ name | capitalize }}</h2>
           <ul class="article-list unstyled-list">

@@ -1,7 +1,7 @@
 ---
-layout: articles
 title: How Vero cookies customers on your website using Javascript?
-categories: customer data
+category: customer data
+layout: articles
 ---
 
 # How Vero cookies customers on your website using Javascript?
