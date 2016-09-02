@@ -1,6 +1,8 @@
 ---
-title: Tracking email activity from Vero in KISSmetrics, Mixpanel, Amplitude and other analytics tools
-category: integrations
+title: Tracking email activity from Vero in KISSmetrics, Mixpanel, Amplitude and other
+  analytics tools
+categories:
+- integrations
 layout: articles
 ---
 

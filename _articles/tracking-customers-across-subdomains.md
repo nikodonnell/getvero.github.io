@@ -1,6 +1,7 @@
 ---
 title: Tracking customers across subdomains
-category: customer data
+categories:
+- customer data
 layout: articles
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: What happens if you elect to pay annually?
-category: billing
+categories:
+- billing
 layout: articles
 ---
 

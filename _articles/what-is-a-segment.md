@@ -1,6 +1,7 @@
 ---
 title: What is a segment?
-category: segments
+categories:
+- segments
 layout: articles
 getting_started: true
 ---

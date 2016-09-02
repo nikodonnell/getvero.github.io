@@ -1,6 +1,7 @@
 ---
 title: Cancel your Vero account
-category: billing
+categories:
+- billing
 layout: articles
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Improving your deliverability
 permalink: "/articles/:title"
-category: deliverability
+categories:
+- deliverability
 layout: articles
 ---
 

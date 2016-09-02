@@ -1,6 +1,7 @@
 ---
 title: Viewing your list of customers in a segment
-category: customer data
+categories:
+- customer data
 layout: articles
 ---
 

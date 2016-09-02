@@ -1,6 +1,7 @@
 ---
 title: How Vero handles bounces
-category: deliverability
+categories:
+- deliverability
 layout: articles
 ---
 

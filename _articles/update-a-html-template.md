@@ -1,6 +1,7 @@
 ---
 title: Update a HTML Template
-category: email design
+categories:
+- email design
 layout: articles
 getting_started: true
 ---

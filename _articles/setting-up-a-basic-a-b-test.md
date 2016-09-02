@@ -1,6 +1,7 @@
 ---
 title: Basic A/B variation test
-category: campaigns
+categories:
+- campaigns
 layout: articles
 common_issues: true
 ---

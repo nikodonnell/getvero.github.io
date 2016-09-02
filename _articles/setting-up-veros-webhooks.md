@@ -1,6 +1,7 @@
 ---
 title: Setting up Vero's Webhooks
-category: integrations
+categories:
+- integrations
 layout: articles
 common_issues: true
 ---
