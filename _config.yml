@@ -14,7 +14,7 @@ defaults:
     type: articles
   values:
     layout: articles
-    category: 
+    categories: 
 email: support@getvero.com
 description: 
 baseurl: ''
@@ -48,5 +48,5 @@ algolia:
   - articles/duplicates/what-are-events-and-why-do-they-matter.md
   - articles/shopify-integration.md
 gems:
-  - algoliasearch-jekyll
-  - jekyll-coffeescript 
+- algoliasearch-jekyll
+- jekyll-coffeescript
