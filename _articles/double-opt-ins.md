@@ -1,6 +1,7 @@
 ---
 title: Setup double opt-ins
-category: configuration
+categories:
+- configuration
 layout: articles
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Using arrays in your emails
-category: email design
+categories:
+- email design
 layout: articles
 ---
 

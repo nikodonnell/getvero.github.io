@@ -1,6 +1,7 @@
 ---
 title: Organising and tagging email campaigns
-category: configuration
+categories:
+- configuration
 layout: articles
 ---
 

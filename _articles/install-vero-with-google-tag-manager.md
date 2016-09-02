@@ -1,6 +1,7 @@
 ---
 title: Install Vero with Google Tag Manager
-category: integrations
+categories:
+- integrations
 layout: articles
 ---
 

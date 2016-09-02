@@ -1,6 +1,7 @@
 ---
 title: Cloning an email
-category: campaigns
+categories:
+- campaigns
 layout: articles
 ---
 

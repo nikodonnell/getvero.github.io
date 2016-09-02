@@ -1,6 +1,7 @@
 ---
 title: Identifying Customers
-category: customer data
+categories:
+- customer data
 layout: articles
 ---
 

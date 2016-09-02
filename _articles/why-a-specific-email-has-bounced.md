@@ -1,6 +1,7 @@
 ---
 title: Why has a specific email bounced?
-category: deliverability
+categories:
+- deliverability
 layout: articles
 ---
 

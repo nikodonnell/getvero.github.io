@@ -1,6 +1,7 @@
 ---
 title: What are tags?
-category: customer data
+categories:
+- customer data
 layout: articles
 ---
 

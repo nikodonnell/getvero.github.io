@@ -1,6 +1,7 @@
 ---
 title: Import a list of the past events contacts' have triggered via CSV
-category: event data
+categories:
+- event data
 layout: articles
 getting_started: true
 ---
