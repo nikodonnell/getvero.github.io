@@ -5,9 +5,6 @@ collections:
   articles:
     title: Articles
     output: true
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
@@ -52,13 +49,4 @@ algolia:
   - articles/shopify-integration.md
 gems:
   - algoliasearch-jekyll
-  - jekyll-coffeescript
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "articles"
-    values:
-      layout: "articles"
-      categories:
+  - jekyll-coffeescript 
