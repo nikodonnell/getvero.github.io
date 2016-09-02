@@ -1,7 +1,6 @@
 ---
 title: Migrating to Vero from a list based provider
-categories:
-- customer data
+category: customer data
 layout: articles
 getting_started: true
 ---

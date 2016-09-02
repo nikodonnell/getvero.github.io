@@ -1,7 +1,6 @@
 ---
 title: Creating and matching Vero customer IDs
-categories:
-- customer data
+category: customer data
 layout: articles
 ---
 

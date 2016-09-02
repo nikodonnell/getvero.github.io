@@ -1,7 +1,6 @@
 ---
 title: Adding TO and FROM email addresses
-categories:
-- configuration
+category: configuration
 layout: articles
 ---
 

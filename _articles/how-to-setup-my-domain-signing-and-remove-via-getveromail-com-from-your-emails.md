@@ -1,7 +1,6 @@
 ---
 title: Setup domain signing and remove 'via xyz.com' from your emails
-categories:
-- deliverability
+category: deliverability
 layout: articles
 ---
 

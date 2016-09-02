@@ -37,7 +37,7 @@ layout: default
         {% elsif page.common_issues == true %}
           {% assign items = site.articles | where: "common_issues", true %}
         {% else %}
-          {% assign items = site.articles | where: "categories", page.categories %}
+          {% assign items = site.articles | where: "category", page.category %}
         {% endif %}
         <ul class="unstyled-list">
           {% for item in items %}

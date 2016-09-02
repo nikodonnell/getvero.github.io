@@ -1,7 +1,6 @@
 ---
 title: Add team members to Vero
-categories:
-- configuration
+category: configuration
 layout: articles
 getting_started: true
 ---

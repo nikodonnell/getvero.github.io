@@ -1,7 +1,6 @@
 ---
 title: How do I know if a customer is unsubscribed?
-categories:
-- customer data
+category: customer data
 layout: articles
 ---
 

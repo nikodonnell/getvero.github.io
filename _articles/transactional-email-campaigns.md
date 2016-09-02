@@ -1,7 +1,6 @@
 ---
 title: What is a transactional campaign?
-categories:
-- campaigns
+category: campaigns
 layout: articles
 ---
 

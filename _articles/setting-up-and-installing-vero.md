@@ -1,7 +1,6 @@
 ---
 title: Setting up and installing Vero
-categories:
-- configuration
+category: configuration
 layout: articles
 getting_started: true
 common_issues: true

@@ -1,7 +1,6 @@
 ---
 title: Reidentify (alias) customers in Vero
-categories:
-- customer data
+category: customer data
 layout: articles
 ---
 

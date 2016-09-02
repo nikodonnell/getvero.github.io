@@ -1,7 +1,6 @@
 ---
 title: What happens if you exceed your subscription limits?
-categories:
-- billing
+category: billing
 layout: articles
 ---
 

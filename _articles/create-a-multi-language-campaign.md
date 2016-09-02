@@ -1,7 +1,6 @@
 ---
 title: Create a Multi-Language campaign
-categories:
-- campaigns
+category: campaigns
 layout: articles
 ---
 

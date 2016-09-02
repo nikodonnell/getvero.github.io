@@ -1,7 +1,6 @@
 ---
 title: Testing emails in Vero
-categories:
-- campaigns
+category: campaigns
 layout: articles
 getting_started: true
 ---

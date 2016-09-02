@@ -1,7 +1,6 @@
 ---
 title: Create a segment
-categories:
-- segments
+category: segments
 layout: articles
 ---
 

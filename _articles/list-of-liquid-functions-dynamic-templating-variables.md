@@ -1,7 +1,6 @@
 ---
 title: List of Liquid functions / dynamic templating variables
-categories:
-- email design
+category: email design
 layout: articles
 common_issues: true
 ---

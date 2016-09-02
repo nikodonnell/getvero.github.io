@@ -1,7 +1,6 @@
 ---
 title: Import a list of unsubscribed customers via CSV
-categories:
-- customer data
+category: customer data
 layout: articles
 ---
 
