@@ -54,3 +54,4 @@ defaults:
         type: "articles"
     values:
         layout: "articles"
+        category:
