@@ -13,10 +13,11 @@ collections:
     output: true
 defaults:
 - scope:
-    path: articles
+    path: ''
     type: articles
   values:
     layout: articles
+    category: 
 email: support@getvero.com
 description: 
 baseurl: ''
@@ -50,14 +51,5 @@ algolia:
   - articles/duplicates/what-are-events-and-why-do-they-matter.md
   - articles/shopify-integration.md
 gems:
-  - algoliasearch-jekyll
-  - jekyll-coffeescript
-
-defaults:
-  -
-    scope:
-        path: ""
-        type: "articles"
-    values:
-        layout: "articles"
-        category:
+- algoliasearch-jekyll
+- jekyll-coffeescript
