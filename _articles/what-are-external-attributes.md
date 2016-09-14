@@ -79,7 +79,7 @@ The fetch_json liquid filter works in a similar way as the fetch_html filter abo
 After adding this to your template or email body you can then access the returned data using the `product` liquid variable. e.g:
 
 {% raw %}
-	{{product.product_name}}
+	{{json.product.product_name}}
 {% endraw %}
 
 ## Authentication
