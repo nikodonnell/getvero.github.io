@@ -13,4 +13,4 @@ To clone an email in Vero simply select *Clone* from the options menu of the ema
 
 After selecting *Clone* you will be asked to confirm your action and have the option to clone from the current project to another project if desired.
 
-Cloning a campaign will copy everything except the result data of the original campaign.
+Cloning a campaign will copy everything except the result data of the original campaign
