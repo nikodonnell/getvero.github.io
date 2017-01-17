@@ -1,46 +1,50 @@
 ---
-title: Reserve email volume with Vero
+title: Lock in your email volume and save
 categories:
 - billing
 layout: articles
 ---
 
-# Reserve email volume and save
+# Lock in your email volume and save
 
 For most Vero customers, email forms a critical and ongoing part of their customer experience.
 
-Once fully engaged with Vero, many customers have a good idea of how their usage will look six, 12 or even 24 months from now.
+Many customers have a good idea of how their email usage will look six, 12 or even 24 months from now.
 
-We're introducing "reserved plans". These plans enable you to lock in a specific email and subscriber volume for a fixed period. Reserving ahead of time enables us to better plan our resources and provide you with a better experience of Vero. In return for this, you will receive a large saving.
+In 2017 we're introducing cost savings for customers who lock in their email volume ahead of time. By committing to a specific email and subscriber volume for a fixed period, you will help us better plan our resources. This in turn will mean we can provide you with a better experience – both technically and in terms of support. 
 
-## Our reserve plan pricing
+In return for this, you will get a solid saving.
 
-We are introducing three tiers of reserved pricing on our Growth plan ($549/month) or above:
+## Our lock in savings
 
-- 6 monthly prepaid, with a discount of 10%
-- 12 monthly prepaid, with a discount of 20%
-- 24 monthly prepaid, with a discount of 30%
+We are introducing three tiers of savings, depending on the length of time you elect to lock in your plan. 
 
-Payments can be made via card of invoice.
+Here's a summary of the savings you can receive:
 
-To reserve your usage, please email [support@getvero.com]({{site.data.links.email_us}}).
+- 6 months (paid up front): a discount of 10%
+- 12 months (paid up front): a discount of 20%
+- 24 monthly (paid up front), a discount of 30%
 
-## What happens if I go over the plan I've paid for?
+Payments can be made via card or via invoice (for customers on our $549/month plan and above).
 
-If you exceed the usage you have reserved (either emails or subscribers), you will receive an email letting you know that you have exceeded the limits of the plan you initially reserved. In this instance we will charge you the difference between the new plan and the plan you had already paid for, and will do so on a monthly basis. 
+To lock in your pricing, please email us at [support@getvero.com]({{site.data.links.email_us}}). We will confirm the plan and details and upgrade your account with your permission.
 
-You can, at any time, elect to reserve the larger plan, prepay the difference and receive the same discount as you did when you first elected to reserve your plan.
+## What happens if I go over the volume I've locked in?
 
-Imagine you reserve our Growth plan, at $549/month, for 12 months. In this scenario you'd pay $5,270 ($6,588 less a 20% discount) up front. 
+If you exceed the usage you have locked in and move to a higher tier (this could be because you exceed either the email or subscriber limits on your plan), we will email you to let you know that you have exceeded the limits of the plan you reserved. In this instance we will charge you the difference between the new plan and the plan you had already paid for, doing so on a monthly basis by default.
 
-After six months, if you were to increase your usage you will move up to the $749/month plan. At this point we would bill you for the difference of $200, monthly. 
+Imagine you lock in our Growth plan, at $549/month, for 12 months. In this scenario you'd pay $5,270 up front ($6,588 less a 20% discount). 
 
-## Do you provide refunds if I reserve a plan?
+After six months, if you were to increase your usage and move up to the $749/month plan, we would bill you the difference of $200, monthly. 
 
-Reserving a plan is designed for those customers that have a well understood idea of their email needs and want to lock in a price, and discount, ahead of time. 
+If you don't want to pay monthly you can also elect to lock in the pricing on your new plan, simply by prepaying the difference. In this scenario you will receive the same discount you did when you first locked in your pricing.
 
-Customers should reserve a plan if they have used Vero for some time and have not experienced large and regular fluctations during the last few months. This is generally a good indicator your needs are fairly stable.
+## Do you provide refunds if I lock in my email volume?
 
-Reserving a plan is a commitment to that plan for the reserved period. We do not provide refunds on reserved payments.
+Locking in your volume is designed for those customers that have a well understood idea of their email needs and want to lock in a price, and discount, ahead of time. 
 
-If you are new to Vero or have not yet established an understanding of your usage patterns, we recommend you pay for Vero month-to-month until comfortable that reserving is for you.
+Customers should only lock in their email volume if they have used Vero for some time and do not experience large or regular fluctations in a typical month. This is generally a good indicator your email volume is fairly stable.
+
+Locking in your plan is a non-refundable commitment to that volume for the reserv period. We do not provide refunds on prepayments.
+
+If you are new to Vero or have not yet established an understanding of your usage patterns, we recommend you use our standard plans and pay Vero on a month-to-month until you're comfortable that locking in your pricing is the right decision for you.
