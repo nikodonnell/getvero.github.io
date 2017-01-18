@@ -45,6 +45,6 @@ Locking in your volume is designed for those customers that have a well understo
 
 Customers should only lock in their email volume if they have used Vero for some time and do not experience large or regular fluctations in a typical month. This is generally a good indicator your email volume is fairly stable.
 
-Locking in your plan is a non-refundable commitment to that volume for the reserv period. We do not provide refunds on prepayments.
+Locking in your plan is a non-refundable commitment to that volume for the reserved period. We do not provide refunds on prepayments.
 
 If you are new to Vero or have not yet established an understanding of your usage patterns, we recommend you use our standard plans and pay Vero on a month-to-month until you're comfortable that locking in your pricing is the right decision for you.
