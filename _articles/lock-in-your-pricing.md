@@ -37,14 +37,7 @@ If you exceed the usage you have locked in and move to a higher tier (this could
 
 Imagine you lock in our Growth plan, at $549/month, for 12 months. In this scenario you'd pay $5,600 up front ($6,588 less a 15% discount). Imagine that, six months later, you increase your usage and move up to the $749/month plan. In this scenario we will begin billing you the _difference_ between the $749/month and $549/month plans, **on a monthly basis**. 
 
-Here's a table breaking this down:
-
-|Scenario|Months 1-6|Months 6-12|Total paid|   
-|---|---|---|
-|Standard pricing|$3,294 (549 * 6)|$4,494(549*6 + (749-549) * 6)|$7,788|
-|Lock in pricing|$2,965 (549 * 6 * 90%)|$4,165 (549 * 6 * 90% + (749-549) * 6)|$7,130|
-
-Note that the excess usage for the second six months is paid monthly, unless otherwise agreed. If you don't want to pay monthly you can of course elect to lock in the pricing on your new plan, simply by prepaying the difference. In this scenario you will receive the same discount you did when you first locked in your pricing.
+**Note:** excess usage is paid monthly, unless otherwise agreed. If you don't want to pay monthly you can of course elect to lock in the pricing on your new plan, simply by prepaying the difference. In this scenario you will receive the same discount you did when you first locked in your pricing.
 
 ## Do you provide refunds if I lock in my email volume?
 
