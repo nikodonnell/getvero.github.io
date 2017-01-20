@@ -22,8 +22,8 @@ We are introducing three tiers of savings, depending on the length of time you e
 Here's a summary of the savings you can receive:
 
 - 6 months (paid up front): a discount of 10%
-- 12 months (paid up front): a discount of 20%
-- 24 monthly (paid up front), a discount of 30%
+- 12 months (paid up front): a discount of 15%
+- 24 monthly (paid up front), a discount of 20%
 
 Payments can be made via card or via invoice (for customers on our $549/month plan and above).
 
@@ -33,11 +33,16 @@ To lock in your pricing, please email us at [support@getvero.com]({{site.data.li
 
 If you exceed the usage you have locked in and move to a higher tier (this could be because you exceed either the email or subscriber limits on your plan), we will email you to let you know that you have exceeded the limits of the plan you reserved. In this instance we will charge you the difference between the new plan and the plan you had already paid for, doing so on a monthly basis by default.
 
-Imagine you lock in our Growth plan, at $549/month, for 12 months. In this scenario you'd pay $5,270 up front ($6,588 less a 20% discount). 
+Imagine you lock in our Growth plan, at $549/month, for 12 months. In this scenario you'd pay $5,600 up front ($6,588 less a 15% discount). Imagine that, six months later, you increase your usage and move up to the $749/month plan. In this scenario we will begin billing you the _difference_ between the $749/month and $549/month plans, **on a monthly basis**. 
 
-After six months, if you were to increase your usage and move up to the $749/month plan, we would bill you the difference of $200, monthly. 
+Here's a table breaking this down:
 
-If you don't want to pay monthly you can also elect to lock in the pricing on your new plan, simply by prepaying the difference. In this scenario you will receive the same discount you did when you first locked in your pricing.
+|Scenario|Months 1-6|Months 6-12|Total paid|   
+|---|---|---|
+|Standard pricing|$3,294 (549 * 6)|$4,494(549*6 + (749-549) * 6)|$7,788|
+|Lock in pricing|$2,965 (549 * 6 * 90%)|$4,165 (549 * 6 * 90% + (749-549) * 6)|$7,130|
+
+Note that the excess usage for the second six months is paid monthly, unless otherwise agreed. If you don't want to pay monthly you can of course elect to lock in the pricing on your new plan, simply by prepaying the difference. In this scenario you will receive the same discount you did when you first locked in your pricing.
 
 ## Do you provide refunds if I lock in my email volume?
 
