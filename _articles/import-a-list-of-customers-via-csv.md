@@ -12,6 +12,8 @@ You can add or update customers in Vero using CSV.
 
 You can only import CSV files up to 50,000 rows. For files larger than this, please email [support@getvero.com](mailto:support@getvero.com) and we will help you import your data.
 
+On nix systems you can run the following commands in your shell terminal: `sed -n "1, 50000p" path/first/file > path/first_portion/file` to get the first 50,000 rows, then `sed -n "50001, 100000p" path/first/file > path/second_portion/file` etc to break your list up for import.
+
 To succesfully import a CSV you must have at least a list of customers' email addresses. You can also include other columns for customer **properties**. An example would be a `first_name` column, or a `location` column. Vero will store these properties against the customer's profile.
 
 Here's an example of a CSV file that can be successfully imported:
