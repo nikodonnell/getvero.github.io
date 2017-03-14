@@ -90,6 +90,8 @@
 
 <p>You can only import CSV files up to 50,000 rows. For files larger than this, please email <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#103;&#101;&#116;&#118;&#101;&#114;&#111;&#046;&#099;&#111;&#109;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#064;&#103;&#101;&#116;&#118;&#101;&#114;&#111;&#046;&#099;&#111;&#109;</a> and we will help you import your data.</p>
 
+<p>Note that on nix systems you can run the following commands in your shell terminal: <code class="highlighter-rouge">sed -n "1, 50000p" path/first/file &gt; path/first_portion/file</code> to get the first 50,000 rows, then <code class="highlighter-rouge">sed -n "50001, 100000p" path/first/file &gt; path/second_portion/file</code>, etc. to break your list up for import.</p>
+
 <p>To succesfully import a CSV you must have at least a list of customers’ email addresses. You can also include other columns for customer <strong>properties</strong>. An example would be a <code class="highlighter-rouge">first_name</code> column, or a <code class="highlighter-rouge">location</code> column. Vero will store these properties against the customer’s profile.</p>
 
 <p>Here’s an example of a CSV file that can be successfully imported:</p>
