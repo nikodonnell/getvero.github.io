@@ -5,7 +5,7 @@ gtm: https://tagmanager.google.com/
 liquid_docs: https://docs.shopify.com/themes/liquid-documentation/basics
 liquid_for_designers: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 email_us: mailto:support@getvero.com
-vero_api: https://www.getvero.com/api
+vero_api: http://developers.getvero.com
 developers: http://developers.getvero.com
 getvero: https://www.getvero.com/
 mail-tester: https://mail-tester.com
@@ -31,3 +31,4 @@ articles:
   html_templates: /articles/using-html-templates-in-vero.html
   customer_properties: /articles/what-are-customer-properties.html
 reserved-pricing: /articles/reserving-email-volume.html
+event-manager: https://app.getvero.com/events

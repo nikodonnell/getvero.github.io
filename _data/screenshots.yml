@@ -345,3 +345,13 @@ vero:
     choose-a-language:
       image: /assets/screenshots/vero.languages-3.png
       title: Choose a language from the list
+  event-manager:
+    add-event:
+      image: /assets/screenshots/vero.events.add-event.png
+      title: Click the Add Event button
+    add-event-modal:
+      image: /assets/screenshots/vero.events.add-event-confirm.png
+      title: Add an event name and description (optional)
+    new-campaign-event:
+      image: /assets/screenshots/vero.events.new-campaign-event.gif
+      title: Add an event in the trigger select box on a campaign
