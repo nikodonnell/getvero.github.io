@@ -23,14 +23,14 @@ Give your event a name that has not already been used. You may also give this ev
 
 Hit the **Add event** confirmation button and your event will be created.
 
-You can now choose this event in your campaigns or segments. However, campaigns will not be fired and customers will not enter a segment based on this event until it has been tracked using the Vero library, read the API documentation to learn more about tracking events.
+You can now choose this event in your campaigns or segments. However, campaigns will not be fired and customers will not enter a segment based on this event until it has been tracked using the Vero library, read the [API documentation]({{ site.data.links.developers }}) to learn more about tracking events.
 
 **Bonus:** Each event in the events manager has a **Setup** tab which shows the code needed to track this event.
 
 ## Adding events in a campaign
 
-When choosing the trigger event in a campaign, you can also type an new event name and quickly create an event by hitting ‘create new event’ stright from the trigger select box. 
+When designing a campaign, you can also type a new event name and quickly create an event by hitting ‘create new event’ straight from the trigger select box. 
 
 ![{{ site.data.screenshots.vero.event-manager.new-campaign-event['title'] }}]({{ site.data.screenshots.vero.event-manager.new-campaign-event['image'] }})
 
-Similar to creating events in the events manager, these events are placeholders. Campaigns will not be triggered until the selected event has been tracked using the Vero library, [read the API documentation]({{site.data.links.vero_api}}) to learn more about tracking events.
+Similar to creating events in the events manager, these events are placeholders. Campaigns will not be triggered until the selected event has been tracked using the Vero library, [read the API documentation]({{site.data.links.developers}}) to learn more about tracking events.
