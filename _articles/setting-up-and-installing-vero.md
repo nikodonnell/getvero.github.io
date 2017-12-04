@@ -1,5 +1,6 @@
 ---
 title: Setting up and installing Vero
+description: Vero makes it easy to create email campaigns that target users based on what they've done (e.g. Viewed a product) or haven't done (e.g. Checked out) as well as segmenting based on user specific variables (e.g. their country or age). 
 categories:
 - configuration
 layout: articles

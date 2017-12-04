@@ -1,5 +1,6 @@
 ---
 title: Adding TO and FROM email addresses
+description: You can add and define as many customer 'From' email addresses as you want in Vero. You can also use these emails addresses to direct behavioral and transactional email campaigns internally (rather than emailing the user that triggers those campaigns).
 categories:
 - configuration
 layout: articles

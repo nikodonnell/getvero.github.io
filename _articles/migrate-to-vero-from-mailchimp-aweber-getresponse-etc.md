@@ -1,5 +1,6 @@
 ---
 title: Migrating to Vero from a list based provider
+description: In Vero, there are no lists. Instead of lists, Vero stores a single record for every customer (or user, or contact, or subscriber – whatever term best suits your business, though we'll use the term customer from here on out).
 categories:
 - customer data
 layout: articles

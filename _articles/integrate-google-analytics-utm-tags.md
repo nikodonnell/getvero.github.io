@@ -1,5 +1,6 @@
 ---
 title: Integrate Google Analytics' UTM tags
+description: You can automatically append UTM parameters to outbound links in your email campaigns. Google Analytics, along with  most analytics tools, use this data to attribute conversions to their correct source.
 categories:
 - reporting
 layout: articles

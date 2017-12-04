@@ -1,5 +1,6 @@
 ---
 title: Using media queries (@media) in Vero
+description: Vero provides support for media queries in HTML templates, however they must be wrapped in a separate style element containing a special tag.
 categories:
 - email design
 layout: articles

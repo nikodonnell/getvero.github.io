@@ -1,5 +1,6 @@
 ---
 title: Lock in your email volume and save
+description: For most Vero customers, email forms a critical and ongoing part of their customer experience. Many customers have a good idea of how their email usage will look six, 12 or even 24 months from now.
 categories:
 - billing
 layout: articles

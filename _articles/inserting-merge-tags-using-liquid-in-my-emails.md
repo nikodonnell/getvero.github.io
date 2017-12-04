@@ -1,5 +1,6 @@
 ---
 title: Inserting merge tags using Liquid in my emails
+description: You can merge customer and event properties into outgoing emails in Vero. To provide you with powerful templating options Vero uses Liquid, an open-source templating language created by Shopify. You can use Liquid to load dynamic content in your emails based on the data you have stored in Vero. 
 categories:
 - email design
 layout: articles

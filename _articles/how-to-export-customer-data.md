@@ -1,5 +1,6 @@
 ---
 title: How to export customer data?
+description: You can only export files up to 50,000 rows from the Vero UI. If you want to export more data, or data that you can't see how to export in the UI, please email support@getvero.com and we'll do our best to do it for you as quickly as possible.
 categories:
 - customer data
 layout: articles

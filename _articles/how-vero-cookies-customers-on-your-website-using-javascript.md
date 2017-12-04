@@ -1,5 +1,6 @@
 ---
 title: How Vero cookies customers on your website using Javascript?
+description: This only applies to customers using Vero's own Javascript API Library. Our backend libraries do not use cookies.
 categories:
 - customer data
 layout: articles

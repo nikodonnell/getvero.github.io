@@ -1,5 +1,6 @@
 ---
 title: Unbounce and Vero
+description: From start to finish we're big fans of Unbounce at Vero. Designed to make it easy for marketers to quickly and easily create and deploy landing pages it is the perfect platform to capture leads. By integrating Vero with Unbounce, you can capture the email addresses and actions of leads that sign up via your Unbounce landing pages.
 categories:
 - integrations
 layout: articles

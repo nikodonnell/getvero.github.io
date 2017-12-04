@@ -1,5 +1,6 @@
 ---
 title: Creating a HTML email subscribe form
+description: If you are coming from an email service provider such as Mailchimp, you will be familiar with the concept of HTML-based email forms.
 categories:
 - configuration
 layout: articles

@@ -1,5 +1,6 @@
 ---
 title: Determine why a triggered email was or was not sent
+description: In Vero, behavioral and transactional emails are triggered by an event. Events are customer actions, tracked using Vero's API.
 categories:
 - campaigns
 layout: articles

@@ -1,5 +1,6 @@
 ---
 title: Create a Multi-Language campaign
+description: It is now possible to send multi-language campaigns in Vero. Using the multi-language feature of Vero you can create multiple langauge versions of an email which include localised content for each langauge you want to send in. This feature is best suited if you have already translated your content to multiple langauges.
 categories:
 - campaigns
 layout: articles

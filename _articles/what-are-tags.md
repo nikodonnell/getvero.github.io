@@ -1,5 +1,6 @@
 ---
 title: What are tags?
+description: Each customer profile in Vero can have many tags. Tags are useful in situations where you want a customer profile to relate to many potential values.
 categories:
 - customer data
 layout: articles

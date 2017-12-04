@@ -1,5 +1,6 @@
 ---
 title: What is a project?
+description: Vero projects are isolated environments. You can use them for different sites or products or environments. At Vero, we have a development, a Q&A and a production project.
 categories:
 - configuration
 layout: articles

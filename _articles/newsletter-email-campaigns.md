@@ -1,5 +1,6 @@
 ---
 title: What is a newsletter campaign?
+description: You might know a Newsletter by some other names. They've been called a one-off email, a blast email, an ad-hoc email or a promotional email. They are considered one-to-many emails, as you are emailing a number of people at once.
 categories:
 - campaigns
 layout: articles

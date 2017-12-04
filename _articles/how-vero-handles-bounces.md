@@ -1,5 +1,6 @@
 ---
 title: How Vero handles bounces
+description: Vero automatically handles the subscription status of customers whose emails bounce.
 categories:
 - deliverability
 layout: articles

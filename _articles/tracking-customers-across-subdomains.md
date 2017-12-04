@@ -1,5 +1,6 @@
 ---
 title: Tracking customers across subdomains
+description: By default, Vero will cookie a customer on the current unique domain. If a customer is on blog.getvero.com, they will be cookied solely on this subdomain.
 categories:
 - customer data
 layout: articles

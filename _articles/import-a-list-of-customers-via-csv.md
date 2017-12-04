@@ -1,5 +1,6 @@
 ---
 title: Import a list of customers via CSV
+description: You can add or update customers in Vero using CSV. You can only import CSV files up to 50,000 rows. For files larger than this, please email support@getvero.com and we will help you import your data.
 categories:
 - customer data
 layout: articles

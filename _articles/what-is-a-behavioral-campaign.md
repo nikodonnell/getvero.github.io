@@ -1,5 +1,6 @@
 ---
-title: What is a behavioral campaign ?
+title: What is a behavioral campaign?
+description: Behavioral email campaigns are marketing emails that are automatically sent to customers when they take certain actions on your site or in your mobile application. You can send an email immediately or set a wait period, such as a few days.
 categories:
 - campaigns
 layout: articles

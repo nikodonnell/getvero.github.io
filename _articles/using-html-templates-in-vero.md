@@ -1,5 +1,6 @@
 ---
 title: Using HTML templates in Vero
+description: Vero gives you the ability to bring your own template. Vero supports media queries and fully responsive HTML templates.
 categories:
 - email design
 layout: articles

@@ -1,5 +1,6 @@
 ---
 title: Conversion tracking
+description: Vero can track the conversions from an email campaign automatically. You can track conversions for newsletters, behavioral or transactional emails. To do so, you must define which event will be considered a conversion when creating your campaign.
 categories:
 - reporting
 layout: articles

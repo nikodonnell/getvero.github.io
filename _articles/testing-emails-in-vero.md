@@ -1,5 +1,6 @@
 ---
 title: Testing emails in Vero
+description: Every Vero account comes setup with two Projects. The first project, named when you enter your Company's name at signup is in Live mode. The second project, named Test is set in Test mode.
 categories:
 - campaigns
 layout: articles

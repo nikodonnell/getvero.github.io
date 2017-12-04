@@ -1,5 +1,6 @@
 ---
 title: Getting Started Guide
+description: Welcome to Vero! We're thrilled you've chosen to send amazing marketing campaigns with us. This guide is your step by step guide to getting from zero to email marketing hero.
 layout: articles
 getting_started: true
 hide: true

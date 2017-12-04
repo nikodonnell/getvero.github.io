@@ -1,5 +1,6 @@
 ---
 title: List of Liquid functions / dynamic templating variables
+description: Below are a list of liquid functions and dynamic template variables you can use when building out your email templates in Vero.
 categories:
 - email design
 layout: articles

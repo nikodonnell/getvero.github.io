@@ -1,5 +1,6 @@
 ---
 title: Using Zapier with Vero
+description: Zapier makes it easy to add customers and their properties as well as tracking events.
 categories:
 - integrations
 layout: articles

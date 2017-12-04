@@ -1,5 +1,6 @@
 ---
 title: What are customer properties?
+description: Customer properties are attributes that are attached as data to a user. A customer can have multiple properties. 
 categories:
 - customer data
 layout: articles
