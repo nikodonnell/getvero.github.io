@@ -1,5 +1,6 @@
 ---
 title: Recurring newsletters
+description: A recurring newsletter is a newsletter that is sent to a certain segment of customers on a specific schedule.
 categories:
 - campaigns
 layout: articles

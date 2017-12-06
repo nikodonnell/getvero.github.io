@@ -1,5 +1,6 @@
 ---
 title: Setup double opt-ins
+description: Vero no longer has built-in support for double opt-ins. In line with our Terms of Service, we require everyone to collect explicit permission from their customers before emailing them, and to comply with all relevant laws.
 categories:
 - configuration
 layout: articles

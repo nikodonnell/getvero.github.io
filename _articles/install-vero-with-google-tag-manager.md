@@ -1,5 +1,6 @@
 ---
 title: Install Vero with Google Tag Manager
+description: Google Tag Manager is a fantastic product. It also makes it incredibly easy to get going with Vero.
 categories:
 - integrations
 layout: articles

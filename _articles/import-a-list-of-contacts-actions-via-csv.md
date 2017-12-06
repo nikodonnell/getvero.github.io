@@ -1,5 +1,6 @@
 ---
 title: Import a list of the past events contacts' have triggered via CSV
+description: Vero tracks not only your contacts but also the events they perform in your application. There are times when you will want to backfill or manually add customer events. An example would be importing all of your contacts' past orders.
 categories:
 - event data
 layout: articles

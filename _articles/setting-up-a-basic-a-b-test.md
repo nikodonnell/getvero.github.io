@@ -1,5 +1,6 @@
 ---
 title: Basic A/B variation test
+description: One of the core benefits of Vero is being able to quickly and easily test and refine hypotheses.
 categories:
 - campaigns
 layout: articles

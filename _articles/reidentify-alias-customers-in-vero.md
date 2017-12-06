@@ -1,5 +1,6 @@
 ---
 title: Reidentify (alias) customers in Vero
+description: Before reading this article, to get a full understanding of how Vero manages customer IDs we recommend you read about Creating and Matching Vero customers IDs.
 categories:
 - customer data
 layout: articles

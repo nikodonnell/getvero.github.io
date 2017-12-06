@@ -1,5 +1,6 @@
 ---
 title: Adding a placeholder event
+description: Sometimes when you are creating or planning email workflows you may not have the event you need tracked in your website or application yet. We don’t think this should stop you from getting your campaigns set up correctly. 
 categories:
 - event data
 layout: articles

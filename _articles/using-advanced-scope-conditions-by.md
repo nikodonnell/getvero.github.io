@@ -1,5 +1,6 @@
 ---
 title: Using advanced scope conditions
+description: Vero's scope by filter is an advanced feature of behavioral campaigns. The best way to illustrate the scope by feature is an example.
 categories:
 - campaigns
 layout: articles

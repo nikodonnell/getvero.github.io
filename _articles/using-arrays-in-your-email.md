@@ -1,5 +1,6 @@
 ---
 title: Using arrays in your emails
+description: Vero allows you to refer to properties stored against a customer using the Liquid templating language, these are commonly referred to as merge tags.
 categories:
 - email design
 layout: articles

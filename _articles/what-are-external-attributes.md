@@ -1,5 +1,6 @@
 ---
 title: What are External Attributes?
+description: Vero's External Attributes feature allows you to pull data from your own API or web endpoints so you can personalise your emails on a truly one-to-one basis.
 categories:
 - email design
 layout: articles

@@ -1,5 +1,6 @@
 ---
 title: Organising and tagging email campaigns
+description: Vero's Campaigns menu allows you to manage the campaigns you are sending to your customers.
 categories:
 - configuration
 layout: articles

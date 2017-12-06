@@ -1,5 +1,6 @@
 ---
 title: View your past invoices
+description: To view a copy of your monthly invoices, select Account > Invoices. Each of our invoices can be saved as a PDF document.
 categories:
 - billing
 layout: articles

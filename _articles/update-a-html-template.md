@@ -1,5 +1,6 @@
 ---
 title: Update a HTML Template
+description: If you haven't already you should read the how-to for setting up your first HTML template. The how-to describes importing a template, selecting it when creating or editing a campaign and defining the templates contents for that specific campaign. This how-to explains what happens if you want to edit the master HTML template as this will affect all campaigns.
 categories:
 - email design
 layout: articles

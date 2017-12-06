@@ -1,5 +1,6 @@
 ---
 title: Why has a specific email bounced?
+description: When an email bounces, Vero records the details as part of the Logs, including the SMTP error returned by the recipients ISP/ESP, the number of times Vero attempted delivery and when this occurred.
 categories:
 - deliverability
 layout: articles

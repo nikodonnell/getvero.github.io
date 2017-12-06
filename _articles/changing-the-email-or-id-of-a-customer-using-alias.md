@@ -1,5 +1,7 @@
 ---
 title: Changing the email or ID of a customer using 'alias'
+description: Sometimes you will track and cookie a customer using a random identifier, or their email address, and later you will want to update this value with a unique identifier (ID) from your own database or system.
+
 categories:
 - customer data
 layout: articles

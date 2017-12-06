@@ -1,5 +1,6 @@
 ---
 title: What is a transactional campaign?
+description: Transactional campaigns are notifications that are are sent to customers when they trigger a specific event. These are usually emails such as password reset, receipts or customer-to-customer updates.
 categories:
 - campaigns
 layout: articles

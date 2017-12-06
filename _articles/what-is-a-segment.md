@@ -1,5 +1,6 @@
 ---
 title: What is a segment?
+description: Segments are one of the key features that give Vero its power. Unlike many of the more traditional email marketing tools, Vero uses segments in the place of lists. Lists are static groups of customers.
 categories:
 - segments
 layout: articles

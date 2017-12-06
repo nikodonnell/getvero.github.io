@@ -1,5 +1,6 @@
 ---
 title: Testing an event with the events manager
+description: Vero is designed to send automated campaigns when a customers trigger a specific event. Usually these events are fired from your website or application using the Vero Javascript API or one of the many other methods you can read about in the Vero developers guide.
 categories:
 - event data
 layout: articles

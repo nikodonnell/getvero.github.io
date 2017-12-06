@@ -1,5 +1,6 @@
 ---
 title: Add team members to Vero
+description: Administrator users can invite and remove team members to a Vero Account.
 categories:
 - configuration
 layout: articles

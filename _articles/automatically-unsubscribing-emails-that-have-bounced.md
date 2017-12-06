@@ -1,5 +1,6 @@
 ---
 title: Automatically unsubscribing emails that have bounced
+description: Vero automatically handles the subscription status of customers whose emails bounce.
 categories:
 - deliverability
 layout: articles

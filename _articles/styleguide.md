@@ -1,5 +1,6 @@
 ---
 title: Help Doc Styleguide
+description: Styleguide for this help docs site. 
 layout: articles
 getting_started: false
 hide: true

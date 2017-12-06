@@ -1,5 +1,6 @@
 ---
 title: What are events?
+description: Vero defines events as all the actions a customer is taking on your site. It could be everything from signing up to checking out, viewing a page to clicking a button, etc.. 
 categories:
 - event data
 layout: articles

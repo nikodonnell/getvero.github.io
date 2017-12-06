@@ -1,5 +1,6 @@
 ---
 title: Creating and matching Vero customer IDs
+description: In Vero, customer records must have a unique ID. We also regularly refer to this as the customer's identifier. The terms are interchangeable. Currently, if new ID's are pushed with the same email address, Vero will create a new customer record.
 categories:
 - customer data
 layout: articles

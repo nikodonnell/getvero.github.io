@@ -1,5 +1,6 @@
 ---
 title: How do I know if a customer is unsubscribed?
+description: When a customer is unsubscribed their profile and history will remain stored in Vero, however they will no longer receive any marketing emails.
 categories:
 - customer data
 layout: articles

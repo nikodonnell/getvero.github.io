@@ -1,5 +1,6 @@
 ---
 title: Cloning an email
+description: To clone an email in Vero simply select *Clone* from the options menu of the email campaign you'd like to duplicate.
 categories:
 - campaigns
 layout: articles

@@ -1,5 +1,6 @@
 ---
 title: What happens if you elect to pay annually?
+description: You can choose to pay annually by locking in your email volume.
 categories:
 - billing
 layout: articles

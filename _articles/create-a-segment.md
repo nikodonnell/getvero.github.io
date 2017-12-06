@@ -1,5 +1,6 @@
 ---
 title: Create a segment
+description: Segments are a saved set of conditions that allow you drill down on a group of customers based on their properties, their actions and their past email interactions.
 categories:
 - segments
 layout: articles
