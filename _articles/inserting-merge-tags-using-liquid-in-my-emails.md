@@ -39,7 +39,7 @@ With all of the following variables, you can use the fallback option, such as `{
 
 ## Vero specific merge data
 
-There are some merge fields that support key Vero fucntions, including Vero's one-click unsubscribe and *View in browser* (permalink) tools.
+There are some merge fields that support key Vero functions, including Vero's one-click unsubscribe and *View in browser* (permalink) tools.
 
 The following is a list of the key variables and functions you can use:
 
