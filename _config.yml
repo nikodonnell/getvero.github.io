@@ -1,5 +1,5 @@
 ---
-title: Vero Help
+title: Email Marketing Help Center
 timezone: UTC
 collections:
   articles:
@@ -19,7 +19,7 @@ defaults:
     layout: articles
     categories: 
 email: support@getvero.com
-description: 
+description: Guides and support to help you get your Vero email marketing account set up and running.
 baseurl: ''
 url: https://help.getvero.com
 twitter_username: getvero
