@@ -13,6 +13,8 @@ layout: articles
 
 # Cancel your Vero account
 
-To cancel your Vero account, email [support@getvero.com](mailto:support@getvero.com).
+To cancel your Vero account, login to your Vero Email Marketing account and go to [Account > Billing](app.getvero.com/account/billing).
 
-We will cancel no questions asked – if you're not happy, we're not happy.
+On this page select "Cancel your account". 
+
+Note that only Administrators of a Vero account have access to this page.
