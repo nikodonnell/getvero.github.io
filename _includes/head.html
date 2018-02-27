@@ -2,11 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% if page.url == '/index.html' %}
-    <meta name="description" content="Support documentation and answers to common questions from your friends at Vero.">
-  {% else %}
-    <meta name="description" content="{{page.description | strip_html | truncate_words: 28 }}">
-  {% endif %}
+  <meta name="description" content="{% if page.description %}{{page.description | strip_html | truncate_words: 28 }}{% else %}{{site.description}}{% endif %}">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M8KWK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
