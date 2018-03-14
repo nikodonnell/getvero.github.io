@@ -84,6 +84,9 @@ vero:
   external-attributes-preview:
     image: /assets/screenshots/vero.external-attributes-preview.png
     title: External attributes preview
+  fusion-data-inspector:
+    image: /assets/screenshots/vero.fusion-data-inspector.png
+    title: Data inspector for Fusion
   triggered-abandonment-campaign:
     image: /assets/screenshots/vero.triggered-abandonment-campaign.png
     title: Triggered abandonment campaign
